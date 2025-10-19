@@ -1,66 +1,138 @@
 "use client";
 import Link from "next/link";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Image from "next/image";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import BestDeals from "@/app/JsonData/BeastDeals.json";
-import BestSales from "@/app/JsonData/BestSales.json";
-import HotDeals from "@/app/JsonData/HotDeals.json";
-import OrganicFood from "@/app/JsonData/OrganicFood.json";
-import Recommend from "@/app/JsonData/Recommend.json";
-import ShortProducts from "@/app/JsonData/ShortProducts.json";
-
-import { useMemo, useState, useEffect } from "react";
-
-interface ProductType {
-  Id: string;
-  title?: string;
-  Name?: string;
-  ProductImage?: string;
+type Ingredient = { name: string; measure: string };
+type Recipe = {
+  id: string | number;
+  title: string;
   image?: string;
-  price?: string;
-  Price?: string;
-}
+  ingredients: Ingredient[];
+  instructions: string;
+  category: string[];
+  tags?: string[];
+};
+type ApiList = {
+  page: number;
+  limit: number;
+  total: number;
+  totalPages: number;
+  items: Recipe[];
+};
 
 export default function MiddleNav() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Contadores (dejas tu lógica actual)
   const [cartCount, setCartCount] = useState(0);
   const [whishlistCount, setWishlistCount] = useState(0);
 
-  // Búsqueda
-  const [searchTerm, setSearchTerm] = useState("");
-  const [results, setResults] = useState<ProductType[]>([]);
+  // --- Buscador ---
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<Recipe[]>([]);
+  const [open, setOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [activeIdx, setActiveIdx] = useState(-1); // navegación con teclado
 
-  const allProducts: ProductType[] = useMemo(
-    () => [
-      ...BestDeals,
-      ...BestSales,
-      ...HotDeals,
-      ...OrganicFood,
-      ...Recommend,
-      ...(ShortProducts?.Featured?.map((p) => ({ ...p, Id: `Featured-${p.Id}` })) || []),
-      ...(ShortProducts?.TopSelling?.map((p) => ({ ...p, Id: `TopSelling-${p.Id}` })) || []),
-      ...(ShortProducts?.OnSale?.map((p) => ({ ...p, Id: `OnSale-${p.Id}` })) || []),
-      ...(ShortProducts?.TopRated?.map((p) => ({ ...p, Id: `TopRated-${p.Id}` })) || []),
-    ],
-    []
-  );
+  const boxRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
+  // Sincroniza el placeholder del buscador con q de la URL (opcional)
   useEffect(() => {
-    if (!searchTerm.trim()) {
+    const q = searchParams.get("q") || "";
+    if (!query) setQuery(q);
+  }, [searchParams]); // eslint-disable-line
+
+  // Debounce simple
+  useEffect(() => {
+    if (!query.trim()) {
       setResults([]);
+      setOpen(false);
       return;
     }
-    const filtered = allProducts.filter((p) =>
-      (p.Name || p.title || "").toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setResults(filtered);
-  }, [searchTerm, allProducts]);
+    const handle = setTimeout(async () => {
+      try {
+        setLoading(true);
+        // Puedes enviar también categoria= y tag= si quieres “arrastrar” filtros actuales del contexto
+        const cat = searchParams.get("categoria") || "";
+        const tag = searchParams.get("tag") || "";
+        const qs = new URLSearchParams({
+          q: query.trim(),
+          page: "1",
+          limit: "8",
+          ...(cat ? { categoria: cat } : {}),
+          ...(tag ? { tag } : {}),
+        });
+        const res = await fetch(`/api/recipes?${qs.toString()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error();
+        const data = (await res.json()) as ApiList;
+        setResults(data.items || []);
+        setOpen(true);
+        setActiveIdx(-1);
+      } catch {
+        setResults([]);
+        setOpen(false);
+      } finally {
+        setLoading(false);
+      }
+    }, 250);
+    return () => clearTimeout(handle);
+  }, [query, searchParams]);
 
+  // Cierre al hacer clic fuera
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (!boxRef.current) return;
+      if (!boxRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, []);
+
+  // Accesibilidad / teclado
+  const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!open) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIdx((i) => Math.min((results?.length ?? 0) - 1, i + 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIdx((i) => Math.max(-1, i - 1));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (activeIdx >= 0 && results[activeIdx]) {
+        router.push(`/UI-Components/Shop?id=${results[activeIdx].id}`);
+        setOpen(false);
+      } else {
+        // Ir al listado con la búsqueda completa
+        const qs = new URLSearchParams({ q: query.trim() });
+        router.push(`/UI-Components/Shop?${qs.toString()}`);
+        setOpen(false);
+      }
+    } else if (e.key === "Escape") {
+      setOpen(false);
+    }
+  };
+
+  const submitSearch = () => {
+    if (!query.trim()) return;
+    const qs = new URLSearchParams({ q: query.trim() });
+    router.push(`/UI-Components/Shop?${qs.toString()}`);
+    setOpen(false);
+  };
+
+  // Contadores locales
   useEffect(() => {
     const loadCounts = () => {
       const cart = JSON.parse(localStorage.getItem("cart") || "[]");
       const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
-      const uniqueCart = new Set(cart.map((item: any) => item.Id));
-      const uniqueWishlist = new Set(wishlist.map((item: any) => item.Id));
+      const uniqueCart = new Set(cart.map((item: any) => item.Id ?? item.id));
+      const uniqueWishlist = new Set(wishlist.map((item: any) => item.Id ?? item.id));
       setCartCount(uniqueCart.size);
       setWishlistCount(uniqueWishlist.size);
     };
@@ -71,84 +143,116 @@ export default function MiddleNav() {
 
   return (
     <div className="w-full bg-[var(--prim-light)] border-b border-gray-300 relative">
-      <div className="flex items-center justify-between py-5 px-[8%] lg:px-[12%]">
+      <div className="flex items-center justify-between py-4 px-[8%] lg:px-[12%]">
         {/* Logo */}
         <Link href="/" className="text-3xl font-bold Merienda text-black">
           Sabor<span className="text-[var(--prim-color)]">Bot</span>
         </Link>
 
-        {/* Buscar */}
-        <div className="flex flex-1 ms-6 lg:mx-0 max-w-xl relative">
-          <input
-            type="text"
-            placeholder="Buscar receta"
-            className="flex-1 border px-3 py-2 rounded-l-lg border-gray-400 outline-none"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            aria-label="Buscar receta"
-          />
-          <button
-            className="bg-[var(--prim-color)] text-white px-3 rounded-r-lg cursor-pointer"
-            aria-label="Ejecutar búsqueda"
-          >
-            <i className="bi bi-search" />
-          </button>
+        {/* Buscador */}
+        <div ref={boxRef} className="flex-1 max-w-2xl mx-4 relative">
+          <div className="flex">
+            <input
+              ref={inputRef}
+              type="text"
+              placeholder="Buscar: platillo, ingrediente o paso…"
+              className="flex-1 border px-3 py-2 rounded-l-lg border-gray-400 outline-none bg-white"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => results.length && setOpen(true)}
+              onKeyDown={onKeyDown}
+              aria-label="Buscar recetas"
+            />
+            <button
+              onClick={submitSearch}
+              className="bg-[var(--prim-color)] text-white px-3 rounded-r-lg cursor-pointer hover:opacity-90"
+              aria-label="Ejecutar búsqueda"
+            >
+              <i className="bi bi-search" />
+            </button>
+          </div>
 
-          {/* Resultados de búsqueda */}
-          {results.length > 0 && (
-            <div className="search-result absolute top-12 left-0 bg-white border border-gray-300 rounded-md shadow-lg z-50 p-2 grid grid-cols-1 lg:grid-cols-3 gap-3 max-h-[500px] overflow-y-auto">
-              {results.map((item, index) => (
-                <Link
-                  key={`${item.Id}-${index}`}
-                  href={{ pathname: "/UI-Components/Shop", query: { id: item.Id } }}
-                  onClick={() => setSearchTerm("")}
-                  className="flex flex-col items-center p-2 border border-gray-300 rounded hover:shadow-lg transition-all"
+          {/* Dropdown resultados */}
+          {open && (
+            <div
+              role="listbox"
+              className="absolute top-11 left-0 right-0 bg-white border border-gray-300 rounded-md shadow-lg z-50 p-2 max-h-[520px] overflow-y-auto"
+            >
+              {loading && (
+                <div className="px-3 py-2 text-sm text-gray-500">Buscando…</div>
+              )}
+
+              {!loading && results.length === 0 && (
+                <div className="px-3 py-2 text-sm text-gray-500">
+                  Sin resultados. Presiona Enter para buscar en el recetario.
+                </div>
+              )}
+
+              {!loading &&
+                results.map((r, idx) => (
+                  <Link
+                    key={r.id}
+                    href={`/UI-Components/Shop?id=${r.id}`}
+                    className={`flex gap-3 p-2 rounded hover:bg-neutral-50 transition ${
+                      idx === activeIdx ? "bg-neutral-50" : ""
+                    }`}
+                    onClick={() => setOpen(false)}
+                    role="option"
+                    aria-selected={idx === activeIdx}
+                  >
+                    <div className="relative w-16 h-16 rounded overflow-hidden bg-neutral-100 shrink-0">
+                      <Image
+                        src={r.image || "/placeholder-recipe.jpg"}
+                        alt={r.title}
+                        fill
+                        sizes="64px"
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="min-w-0">
+                      <h4 className="text-sm font-semibold line-clamp-1">{r.title}</h4>
+                      <p className="text-xs text-gray-500 line-clamp-1">
+                        {(r.category || []).slice(0, 3).join(" · ") || "Sin categoría"}
+                      </p>
+                      <p className="text-[11px] text-gray-500">
+                        {(r.ingredients?.length ?? 0)} ingredientes
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+
+              {!loading && results.length > 0 && (
+                <button
+                  onClick={submitSearch}
+                  className="w-full mt-1 px-3 py-2 text-sm rounded-md border hover:bg-neutral-50"
                 >
-                  <img
-                    src={(item.ProductImage || item.image) ?? "/placeholder.png"}
-                    alt={(item.Name || item.title) ?? "Producto"}
-                    className="w-full object-cover rounded"
-                  />
-                  <h3 className="font-semibold text-sm text-center mt-2">
-                    {item.Name || item.title}
-                  </h3>
-                  <p className="text-gray-500 text-xs mt-1">
-                    ${item.Price || item.price}
-                  </p>
-                </Link>
-              ))}
+                  Ver todos los resultados para “{query.trim()}”
+                </button>
+              )}
             </div>
           )}
-
-          {/* Ubicación (opcional) */}
-          <div className="hidden lg:flex text-sm ms-5 bg-white items-center pl-4 rounded-lg border border-gray-400 shrink-0">
-            <i className="bi bi-geo-alt text-lg text-[var(--prim-color)]"></i>
-            <select
-              name="location"
-              className="px-3 rounded-lg text-[var(--prim-color)] font-semibold appearance-none cursor-pointer outline-none bg-transparent"
-              defaultValue="CDMX"
-              aria-label="Seleccionar ubicación"
-            >
-              <option>CDMX</option>
-              <option>Estado de México</option>
-              <option>Tabasco</option>
-            </select>
-          </div>
         </div>
 
-        {/* Wishlist & cart */}
+        {/* Wishlist (y/o otros íconos que ya tengas) */}
         <div className="hidden lg:flex items-center space-x-6">
           <Link href="/UI-Components/Pages/wishlist" className="relative inline-flex">
-            <i className="bi bi-heart text-gray-600 text-2xl leading-none hover:text-[var(--prim-color)] transition-all"></i>
+            <i className="bi bi-heart text-gray-600 text-2xl leading-none hover:text-[var(--prim-color)] transition-all" />
             {whishlistCount > 0 && (
-              <span className="absolute -top-1.5 -right-1.5 bg-[var(--prim-color)] text-white text-[10px] w-5 h-5 rounded-full grid place-items-center z-10 pointer-events-none">
+              <span className="absolute -top-1.5 -right-1.5 bg-[var(--prim-color)] text-white text-[10px] w-5 h-5 rounded-full grid place-items-center">
                 {whishlistCount}
               </span>
             )}
           </Link>
-
+          {/* Si quieres mostrar el carrito, déjalo — o elimínalo si ya no aplica en el recetario */}
+          <Link href="/UI-Components/Pages/cart" className="relative inline-flex">
+            <i className="bi bi-bookmark text-gray-600 text-2xl leading-none hover:text-[var(--prim-color)] transition-all" />
+            {cartCount > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 bg-[var(--prim-color)] text-white text-[10px] w-5 h-5 rounded-full grid place-items-center">
+                {cartCount}
+              </span>
+            )}
+          </Link>
         </div>
-
       </div>
     </div>
   );
