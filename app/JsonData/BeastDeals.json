@@ -1,0 +1,48 @@
+
+[
+    {
+        "Id": "BestDeals1",
+        "image": "/BeastDeals/product-img1.png",
+        "title": "Fresh Eggplant & Cucumber Mix",
+        "price": "$14.99",
+        "lessprice": "$28.99",
+        "review": "(16k)",
+        "sold": "18/35"
+    },
+        {
+        "Id": "BestDeals2",
+        "image": "/BeastDeals/product-img2.png",
+        "title": "Fresh Eggplant & Cucumber Mix",
+        "price": "$14.99",
+        "lessprice": "$28.99",
+        "review": "(16k)",
+        "sold": "18/35"
+    },
+        {
+        "Id": "BestDeals3",
+        "image": "/BeastDeals/product-img3.png",
+        "title": "Fresh Eggplant & Cucumber Mix",
+        "price": "$14.99",
+        "lessprice": "$28.99",
+        "review": "(16k)",
+        "sold": "18/35"
+    },
+        {
+        "Id": "BestDeals4",
+        "image": "/BeastDeals/product-img1.png",
+        "title": "Fresh Eggplant & Cucumber Mix",
+        "price": "$14.99",
+        "lessprice": "$28.99",
+        "review": "(16k)",
+        "sold": "18/35"
+    },
+        {
+        "Id": "BestDeals5",
+        "image": "/BeastDeals/product-img2.png",
+        "title": "Fresh Eggplant & Cucumber Mix",
+        "price": "$14.99",
+        "lessprice": "$28.99",
+        "review": "(16k)",
+        "sold": "18/35"
+    }
+]

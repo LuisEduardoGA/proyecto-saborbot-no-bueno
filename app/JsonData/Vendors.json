@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "title": "Organic Market",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Arico Market",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "Farmer Market",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "HRmart",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 5,
+        "title": "Lucky Supermark",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "Foodcos",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 7,
+        "title": "Food Fast",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    },
+
+    {
+        "id": 8,
+        "title": "Safeway",
+        "time": "Delivery by 6:14 am",
+        "off": "$5 off Snack & candy",
+        "vendormain": "/vendor-logo1.png",
+        "vendors": [
+            "/vendor-img3.png",
+            "/vendor-img4.png",
+            "/vendor-img5.png"
+        ]
+    }
+]

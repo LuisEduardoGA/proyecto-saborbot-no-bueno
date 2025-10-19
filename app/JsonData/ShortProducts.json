@@ -1,0 +1,138 @@
+{
+    "Featured": [
+        {
+            "Id": "Featured1",
+            "image": "/shortProduct/short-product-img1.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "Featured2",
+            "image": "/shortProduct/short-product-img2.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "Featured3",
+            "image": "/shortProduct/short-product-img3.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "Featured4",
+            "image": "/shortProduct/short-product-img4.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        }
+    ],
+    "TopSelling": [
+        {
+            "Id": "TopSelling1",
+            "image": "/shortProduct/short-product-img5.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopSelling2",
+            "image": "/shortProduct/short-product-img6.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopSelling3",
+            "image": "/shortProduct/short-product-img7.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopSelling4",
+            "image": "/shortProduct/short-product-img8.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        }
+    ],
+    "OnSale": [
+        {
+            "Id": "OnSale1",
+            "image": "/shortProduct/short-product-img9.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "OnSale2",
+            "image": "/shortProduct/short-product-img2.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "OnSale3",
+            "image": "/shortProduct/short-product-img3.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "OnSale4",
+            "image": "/shortProduct/short-product-img4.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        }
+    ],
+    "TopRated": [
+        {
+            "Id": "TopRated1",
+            "image": "/shortProduct/short-product-img5.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopRated2",
+            "image": "/shortProduct/short-product-img6.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopRated3",
+            "image": "/shortProduct/short-product-img7.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        },
+        {
+            "Id": "TopRated4",
+            "image": "/shortProduct/short-product-img8.png",
+            "title": "Fresh Eggplant & Cucumber Mix",
+            "price": "$14.99",
+            "lessprice": "$28.99",
+            "review": "(16k)"
+        }
+    ]
+}

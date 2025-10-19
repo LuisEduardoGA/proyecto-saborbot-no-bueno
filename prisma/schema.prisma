@@ -1,0 +1,62 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Recipe {
+  id              String       @id                          // idMeal de TheMealDB (string)
+  title           String
+  title_es        String
+  image           String?
+  instructions    String?
+  instructions_es String?
+  areaOrCuisine   String?
+  sourceUrl       String?
+
+  ingredients     Ingredient[]
+
+  // Many-to-many implícitas (Prisma crea tablas puente)
+  tags            Tag[]
+  diets           Diet[]
+
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  // Índices útiles para búsquedas por título
+  @@index([title_es])
+  @@index([title])
+}
+
+model Ingredient {
+  id         String  @id @default(cuid())
+  recipeId   String
+  name       String
+  name_es    String
+  measure    String?
+  normalized String?
+
+  recipe     Recipe  @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  // Índices para filtros por receta y por nombre en ES
+  @@index([recipeId])
+  @@index([name_es])
+}
+
+model Tag {
+  id       String    @id @default(cuid())
+  key      String    @unique     // p.ej. "pollo", "picante"
+  label    String
+  recipes  Recipe[]               // lado opuesto del many-to-many
+}
+
+model Diet {
+  id       String    @id @default(cuid())
+  key      String    @unique     // "gluten_free", "vegan", etc.
+  label    String
+  recipes  Recipe[]               // lado opuesto del many-to-many
+}

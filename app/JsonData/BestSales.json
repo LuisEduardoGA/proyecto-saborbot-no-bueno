@@ -1,0 +1,42 @@
+[
+    {
+        "Id": "BestSales1",
+        "image": "/BestSales/best-sell1.png",
+        "title": "Marcel's Modern Pantry",
+        "price": "$15.99",
+        "lessprice": "$28.99",
+        "review": "(17K)",
+        "sold": "18/35",
+        "sale": "35%"
+    },
+    {
+        "Id": "BestSales2",
+        "image": "/BestSales/best-sell3.png",
+        "title": "Marcel's Modern Pantry",
+        "price": "$15.99",
+        "lessprice": "$28.99",
+        "review": "(17K)",
+        "sold": "18/35",
+        "sale": "35%"
+    },
+    {
+        "Id": "BestSales3",
+        "image": "/BestSales/best-sell2.png",
+        "title": "Marcel's Modern Pantry",
+        "price": "$15.99",
+        "lessprice": "$28.99",
+        "review": "(17K)",
+        "sold": "18/35",
+        "sale": "35%"
+    },
+    {
+        "Id": "BestSales4",
+        "image": "/BestSales/best-sell4.png",
+        "title": "Marcel's Modern Pantry",
+        "price": "$15.99",
+        "lessprice": "$28.99",
+        "review": "(17K)",
+        "sold": "18/35",
+        "sale": "35%"
+    }
+]

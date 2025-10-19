@@ -1,0 +1,3351 @@
+[
+  {
+    "Id": 1,
+    "Nombre_de_la_receta": "Guacamole Clásico",
+    "imagen": "guacamole-clasico.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Aguacates",
+        "medida": "3 (maduros)"
+      },
+      {
+        "nombre": "Cebolla blanca",
+        "medida": "1/2 (picada finamente)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "1 (picado en cubos pequeños)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza (picado)"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "1/2 (o al gusto, picado finamente)"
+      },
+      {
+        "nombre": "Limón",
+        "medida": "1 (jugo)"
+      },
+      {
+        "nombre": "Sal",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Machaca los aguacates en un tazón. 2. Agrega la cebolla, el jitomate, el cilantro y el chile serrano. 3. Vierte el jugo de limón y sazona con sal. 4. Mezcla suavemente y sirve.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 2,
+    "Nombre_de_la_receta": "Tacos al Pastor",
+    "imagen": "tacos-al-pastor.jpg",
+    "categoría": "Sin gluten",
+    "ingredientes": [
+      {
+        "nombre": "Carne de cerdo",
+        "medida": "1 kg (en bisteces delgados)"
+      },
+      {
+        "nombre": "Chiles guajillos",
+        "medida": "6 (secos, remojados)"
+      },
+      {
+        "nombre": "Vinagre blanco",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Ajo",
+        "medida": "3 dientes"
+      },
+      {
+        "nombre": "Piña",
+        "medida": "1/4 (en cubos)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "20 unidades"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa los chiles, vinagre y ajo para el adobo. Marina la carne por 4 horas. 2. Cocina la carne en sartén o parrilla y pícala. Asa la piña. 3. Calienta las tortillas y sirve la carne con piña, cebolla y cilantro.",
+    "tags": [
+      "Antojitos",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 3,
+    "Nombre_de_la_receta": "Enchiladas Verdes de Pollo",
+    "imagen": "enchiladas-verdes-de-pollo.jpg",
+    "categoría": "Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pechuga de pollo",
+        "medida": "300 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Tomate verde",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "2 (o al gusto)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "150 g (rallado)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece los tomates y chiles. Licúa para hacer la salsa. 2. Pasa las tortillas por aceite y luego por la salsa. Rellena con pollo y enrolla. 3. Coloca en un plato, baña con salsa y decora con crema y queso.",
+    "tags": [
+      "Enchiladas/Chilaquiles",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 4,
+    "Nombre_de_la_receta": "Chiles en Nogada",
+    "imagen": "chiles-en-nogada.jpg",
+    "categoría": "Vegetariana, Nueces",
+    "ingredientes": [
+      {
+        "nombre": "Chile poblano",
+        "medida": "4 (asados y pelados)"
+      },
+      {
+        "nombre": "Carne de res y/o cerdo",
+        "medida": "300 g (para el relleno de picadillo)"
+      },
+      {
+        "nombre": "Nuez de Castilla",
+        "medida": "150 g (para la nogada)"
+      },
+      {
+        "nombre": "Crema de leche",
+        "medida": "1 taza (para la nogada)"
+      },
+      {
+        "nombre": "Queso de cabra",
+        "medida": "50 g (para la nogada)"
+      },
+      {
+        "nombre": "Granada y perejil",
+        "medida": "Al gusto (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara el relleno de picadillo o de frutas. 2. Licúa la nuez, crema y queso para la nogada. Sazona con sal y azúcar. 3. Rellena los chiles poblanos. 4. Báñalos con la nogada y decora con granada y perejil.",
+    "tags": []
+  },
+  {
+    "Id": 5,
+    "Nombre_de_la_receta": "Pozole Rojo de Cerdo",
+    "imagen": "pozole-rojo-de-cerdo.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Maíz cacahuazintle",
+        "medida": "500 g (precocido)"
+      },
+      {
+        "nombre": "Carne de cerdo",
+        "medida": "1 kg (cabeza y espinazo)"
+      },
+      {
+        "nombre": "Chiles guajillos",
+        "medida": "10 (secos)"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Rábanos y lechuga",
+        "medida": "Al gusto (para guarnición)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece la carne con cebolla, ajo y sal. Reserva el caldo. 2. Cuece y licúa los chiles guajillos con ajo y cebolla. Cuela la salsa en el caldo. 3. Agrega el maíz cacahuazintle precocido. Deja hervir 1 hora. 4. Sirve con la carne deshebrada, y acompaña con rábanos, lechuga, cebolla picada, orégano y limón.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 6,
+    "Nombre_de_la_receta": "Chilaquiles Rojos",
+    "imagen": "chilaquiles-rojos.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "10 unidades (cortadas y fritas en totopos)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile de árbol",
+        "medida": "5 (o al gusto)"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "100 g"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "1/2 taza"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Hierve los jitomates y chiles. Licúa con un poco de cebolla y ajo para la salsa. 2. Vierte la salsa caliente sobre los totopos en un sartén. 3. Cocina hasta que los totopos se suavicen. 4. Sirve inmediatamente con pollo (opcional), cebolla en rodajas, queso y crema.",
+    "tags": [
+      "Enchiladas/Chilaquiles"
+    ]
+  },
+  {
+    "Id": 7,
+    "Nombre_de_la_receta": "Mole Poblano de Pollo",
+    "imagen": "mole-poblano-de-pollo.jpg",
+    "categoría": "Sin gluten, Nueces",
+    "ingredientes": [
+      {
+        "nombre": "Mole poblano en pasta",
+        "medida": "250 g"
+      },
+      {
+        "nombre": "Pollo",
+        "medida": "4 piezas (cocidas)"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Chocolate de mesa",
+        "medida": "1/2 tablilla"
+      },
+      {
+        "nombre": "Ajonjolí",
+        "medida": "Al gusto (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Disuelve la pasta de mole en el caldo de pollo caliente a fuego bajo, moviendo constantemente. 2. Agrega el chocolate y deja que se incorpore. 3. Sumerge las piezas de pollo cocidas en el mole y calienta. 4. Sirve con ajonjolí tostado y arroz rojo.",
+    "tags": [
+      "Mole",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 8,
+    "Nombre_de_la_receta": "Cochinita Pibil",
+    "imagen": "cochinita-pibil.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne de cerdo (pierna y lomo)",
+        "medida": "1 kg (en cubos)"
+      },
+      {
+        "nombre": "Pasta de achiote",
+        "medida": "100 g"
+      },
+      {
+        "nombre": "Naranja agria",
+        "medida": "1/2 taza (jugo)"
+      },
+      {
+        "nombre": "Vinagre blanco",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Hoja de plátano",
+        "medida": "2 pliegos"
+      },
+      {
+        "nombre": "Cebolla morada y chile habanero",
+        "medida": "Al gusto (para la salsa de acompañamiento)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla el achiote con el jugo de naranja y vinagre para el adobo. 2. Marina la carne con el adobo. 3. Envuelve la carne en hojas de plátano. Hornea a 180°C (350°F) por 3 horas o hasta que esté suave. 4. Deshebra y sirve en tacos con cebolla morada encurtida y chile habanero.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 9,
+    "Nombre_de_la_receta": "Tostadas de Tinga de Pollo",
+    "imagen": "tostadas-de-tinga-de-pollo.jpg",
+    "categoría": "Sin gluten, Sin lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Pechuga de pollo",
+        "medida": "500 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Cebolla blanca",
+        "medida": "1 (en juliana)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (licuados)"
+      },
+      {
+        "nombre": "Chile chipotle",
+        "medida": "2-3 (en adobo, o al gusto)"
+      },
+      {
+        "nombre": "Tostadas de maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Lechuga y queso fresco",
+        "medida": "Al gusto (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla en juliana hasta que esté suave. 2. Agrega el jitomate licuado y el chipotle. Sazona y deja hervir. 3. Incorpora el pollo deshebrado. Cocina a fuego bajo hasta que el líquido se reduzca. 4. Sirve la tinga sobre las tostadas, decora con lechuga, queso y crema (opcional).",
+    "tags": [
+      "Plato fuerte",
+      "Tostadas"
+    ]
+  },
+  {
+    "Id": 10,
+    "Nombre_de_la_receta": "Flautas de Papa",
+    "imagen": "flautas-de-papa.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Papa",
+        "medida": "500 g (cocida y machacada)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "100 g (para espolvorear)"
+      },
+      {
+        "nombre": "Crema y salsa verde",
+        "medida": "Al gusto (para servir)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sazona la papa machacada con sal y pimienta. 2. Rellena las tortillas con la papa, enróllalas firmemente y sujétalas con palillos si es necesario. 3. Fríe en aceite caliente hasta que estén doradas y crujientes. 4. Retira los palillos y sirve con lechuga, salsa, queso y crema.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 11,
+    "Nombre_de_la_receta": "Sopa Azteca (Sopa de Tortilla)",
+    "imagen": "sopa-de-tortilla.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Jitomate",
+        "medida": "6 (asados)"
+      },
+      {
+        "nombre": "Chile pasilla",
+        "medida": "2 (asado y remojado)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "1.5 litros"
+      },
+      {
+        "nombre": "Tortillas",
+        "medida": "6 (cortadas y fritas para guarnición)"
+      },
+      {
+        "nombre": "Epazote",
+        "medida": "1 rama"
+      },
+      {
+        "nombre": "Guarnición",
+        "medida": "Aguacate, queso fresco, crema"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa los jitomates, chile pasilla y un poco de caldo. Cuela y sofríe la salsa en aceite. 2. Agrega el resto del caldo y epazote, sazona y hierve. 3. Sirve el caldo caliente en un tazón y agrega los totopos de tortilla, el queso, el aguacate y la crema.",
+    "tags": [
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 12,
+    "Nombre_de_la_receta": "Pescado a la Veracruzana",
+    "imagen": "pescado-a-la-veracruzana.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Filete de pescado",
+        "medida": "4 (huachinango o robalo)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (en rodajas)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1 (en rodajas)"
+      },
+      {
+        "nombre": "Aceitunas",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Alcaparras",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Chile güero o largo",
+        "medida": "2 (en rajas)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sazona el pescado. 2. Sofríe la cebolla y añade el jitomate. Cocina hasta que se suavice. 3. Agrega las aceitunas, alcaparras y las rajas de chile. 4. Coloca el pescado en la salsa y cocina tapado hasta que esté cocido (aprox. 15 min). Sirve con arroz blanco.",
+    "tags": [
+      "Mariscos",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 13,
+    "Nombre_de_la_receta": "Rajas con Crema y Elote",
+    "imagen": "rajas-con-crema-y-elote.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Chile poblano",
+        "medida": "5 (asados, pelados y en rajas)"
+      },
+      {
+        "nombre": "Granos de elote",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (en juliana)"
+      },
+      {
+        "nombre": "Crema de leche",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Queso crema o queso fresco",
+        "medida": "50 g (opcional)"
+      },
+      {
+        "nombre": "Aceite",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla en juliana hasta que esté transparente. 2. Agrega las rajas de chile poblano y los granos de elote. 3. Incorpora la crema y el queso (si lo usas), sazona con sal y cocina a fuego bajo hasta que hierva. 4. Sirve como guarnición o en tacos.",
+    "tags": []
+  },
+  {
+    "Id": 14,
+    "Nombre_de_la_receta": "Tacos de Canasta (al vapor)",
+    "imagen": "tacos-de-canasta.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "50 unidades"
+      },
+      {
+        "nombre": "Relleno",
+        "medida": "1 kg (papa, frijol, chicharrón o adobo)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Chile ancho",
+        "medida": "4 (secos, para el aceite de adobo)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1 (en rodajas para cocinar al vapor)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara el relleno (papa con sal, frijoles refritos, etc.). 2. Sofríe los chiles anchos en el aceite para darle color (retira los chiles). 3. Rellena las tortillas y dóblalas. 4. Coloca los tacos y las rodajas de cebolla en una olla o canasta. Vierte el aceite de chile caliente y cuece al vapor hasta que estén suaves.",
+    "tags": [
+      "Antojitos",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 15,
+    "Nombre_de_la_receta": "Tostadas de Ceviche de Camarón",
+    "imagen": "tostadas-de-ceviche-de-camarón.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Camarón",
+        "medida": "500 g (cocido y picado)"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Cebolla morada",
+        "medida": "1/2 (picada)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (picado)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza (picado)"
+      },
+      {
+        "nombre": "Tostadas de maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Aguacate",
+        "medida": "1 (en rebanadas)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Marina el camarón picado en el jugo de limón por 15 minutos. 2. Escurre un poco el jugo. 3. Agrega la cebolla, jitomate y cilantro. Sazona con sal y pimienta. 4. Sirve el ceviche sobre tostadas y decora con rebanadas de aguacate.",
+    "tags": [
+      "Mariscos",
+      "Tostadas"
+    ]
+  },
+  {
+    "Id": 16,
+    "Nombre_de_la_receta": "Caldo de Pollo",
+    "imagen": "caldo-de-pollo.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pollo (pierna y muslo)",
+        "medida": "4 piezas"
+      },
+      {
+        "nombre": "Zanahoria",
+        "medida": "2 (en trozos)"
+      },
+      {
+        "nombre": "Calabacita",
+        "medida": "2 (en trozos)"
+      },
+      {
+        "nombre": "Papa",
+        "medida": "2 (en trozos)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "1 (en trozos)"
+      },
+      {
+        "nombre": "Arroz",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece el pollo en agua con cebolla y ajo. Retira la espuma. 2. Cuando el pollo esté medio cocido, agrega el arroz. 3. Añade las verduras (zanahoria y papa primero, calabacita al final). 4. Sazona y cocina hasta que todo esté tierno. Sirve con limón y cilantro.",
+    "tags": [
+      "Entrada",
+      "Plato fuerte",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 17,
+    "Nombre_de_la_receta": "Huevos Rancheros",
+    "imagen": "huevos-rancheros.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Huevo",
+        "medida": "2 unidades"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "2 unidades"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (para la salsa)"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "1 (para la salsa)"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara una salsa sencilla cociendo y licuando el jitomate y el chile. Sofríe y sazona. 2. Fríe las tortillas en poco aceite (para que no queden crujientes). 3. Fríe los huevos al gusto (estrellados). 4. En el plato, coloca una tortilla, unta frijoles, coloca el huevo y baña con la salsa. Decora con queso.",
+    "tags": [
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 18,
+    "Nombre_de_la_receta": "Quesadillas de Flor de Calabaza",
+    "imagen": "quesadillas-de-flor-de-calabaza.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "8 unidades"
+      },
+      {
+        "nombre": "Flor de calabaza",
+        "medida": "2 tazas (limpia y picada)"
+      },
+      {
+        "nombre": "Queso Oaxaca (quesillo)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla y luego agrega la flor de calabaza y sazona con sal. Cocina hasta que esté suave. 2. Calienta una tortilla, rellena con queso Oaxaca y el guisado de flor de calabaza. 3. Dobla y cocina en un comal hasta que el queso se derrita.",
+    "tags": [
+      "Quesadillas"
+    ]
+  },
+  {
+    "Id": 19,
+    "Nombre_de_la_receta": "Arroz Rojo Mexicano",
+    "imagen": "arroz-rojo-mexicano.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Arroz",
+        "medida": "1 taza (grano largo)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (licuado)"
+      },
+      {
+        "nombre": "Ajo",
+        "medida": "1 diente"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Aceite",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Lava el arroz y escúrrelo bien. Fríelo en aceite hasta que esté dorado. 2. Licúa el jitomate con el ajo, la cebolla y un poco de caldo. Cuela. 3. Vierte la salsa sobre el arroz, agrega el resto del caldo, sazona con sal y revuelve. 4. Tapa y cocina a fuego bajo por 20 minutos o hasta que el líquido se absorba.",
+    "tags": [
+      "Arroz/Guarnición"
+    ]
+  },
+  {
+    "Id": 20,
+    "Nombre_de_la_receta": "Mole Verde de Cerdo",
+    "imagen": "mole-verde-de-cerdo.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne de cerdo",
+        "medida": "1 kg (en trozos)"
+      },
+      {
+        "nombre": "Tomate verde",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "4 (o al gusto)"
+      },
+      {
+        "nombre": "Pepita de calabaza",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Ajonjolí",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Hoja santa o epazote",
+        "medida": "1 hoja o 1 rama"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece la carne de cerdo. Reserva el caldo. 2. Hierve los tomates, chiles y hierbas. Licúa con las pepitas y el ajonjolí tostado. 3. Sofríe el mole en aceite, agrega caldo de la carne hasta obtener la consistencia deseada. Sazona. 4. Incorpora la carne y cocina 15 minutos. Sirve con arroz blanco.",
+    "tags": [
+      "Mole",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 21,
+    "Nombre_de_la_receta": "Enfrijoladas Rellenas de Queso",
+    "imagen": "enfrijoladas rellenas-de-queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Frijoles negros",
+        "medida": "2 tazas (cocidos y licuados con caldo)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Queso fresco o Cotija",
+        "medida": "150 g (rallado)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (en juliana)"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Aceite o manteca vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa los frijoles para hacer una salsa espesa. Sofríe y sazona. 2. Pasa cada tortilla por aceite caliente y luego sumérgela en la salsa de frijol. 3. Rellena con queso, dobla y sirve con más queso, crema y aros de cebolla.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 22,
+    "Nombre_de_la_receta": "Machaca con Huevo",
+    "imagen": "manteca-con-huevo.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Machaca (carne seca deshebrada)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "4 unidades (batidos)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "1 (picado)"
+      },
+      {
+        "nombre": "Chile verde",
+        "medida": "1 (picado, opcional)"
+      },
+      {
+        "nombre": "Aceite",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla, jitomate y chile en una sartén. 2. Agrega la machaca y cocina unos minutos. 3. Vierte los huevos batidos sobre la mezcla. Revuelve y cocina hasta que el huevo esté cuajado. 4. Sirve caliente con tortillas de harina o maíz.",
+    "tags": [
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 23,
+    "Nombre_de_la_receta": "Chiles Rellenos de Queso Capeados",
+    "imagen": "chiles-rellenos-de-queso-capeados.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Chile poblano",
+        "medida": "4 (asados y pelados)"
+      },
+      {
+        "nombre": "Queso Oaxaca (quesillo)",
+        "medida": "250 g (para rellenar)"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "3 (separadas claras y yemas, para capear)"
+      },
+      {
+        "nombre": "Harina de trigo",
+        "medida": "1/4 taza (para enharinar, opcional)"
+      },
+      {
+        "nombre": "Salsa de jitomate",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Rellena los chiles poblanos con el queso. 2. Bate las claras de huevo a punto de nieve y luego incorpora las yemas. 3. Pasa los chiles por harina (opcional) y cúbrelos con el capeado de huevo. 4. Fríe en aceite caliente hasta que estén dorados. 5. Sirve bañados en salsa de jitomate caliente.",
+    "tags": []
+  },
+  {
+    "Id": 24,
+    "Nombre_de_la_receta": "Bistec a la Mexicana",
+    "imagen": "bistec_a_la_mexicana.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Bistec de res",
+        "medida": "500 g (en tiras)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (picado en cubos)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/2 (en juliana)"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "2 (en rodajas)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Sal y Pimienta",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sella la carne en aceite caliente. Retira y reserva. 2. En el mismo sartén, sofríe la cebolla, chile y luego el jitomate. 3. Regresa la carne, mezcla y sazona con sal y pimienta. 4. Cocina a fuego bajo hasta que el jitomate suelte su jugo. Sirve con tortillas.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 25,
+    "Nombre_de_la_receta": "Ensalada de Nopalitos",
+    "imagen": "ensalada-de-nopalitos.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Nopales",
+        "medida": "500 g (cocidos y en tiras)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (picado en cubos)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza (picado)"
+      },
+      {
+        "nombre": "Queso panela",
+        "medida": "100 g (en cubos, opcional)"
+      },
+      {
+        "nombre": "Vinagre y aceite de oliva",
+        "medida": "Al gusto (para aderezo)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Asegúrate de que los nopales estén bien escurridos. 2. En un tazón, mezcla los nopales, jitomate, cebolla, cilantro y queso panela (si lo usas). 3. Adereza con un poco de vinagre, aceite de oliva, sal y orégano. Mezcla y refrigera antes de servir.",
+    "tags": [
+      "Arroz/Guarnición",
+      "Ensalada"
+    ]
+  },
+  {
+    "Id": 26,
+    "Nombre_de_la_receta": "Tamales de Rajas con Queso",
+    "imagen": "tamales-de-rajas-con-queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz",
+        "medida": "1 kg (para tamal)"
+      },
+      {
+        "nombre": "Mantecas de cerdo o vegetal",
+        "medida": "250 g"
+      },
+      {
+        "nombre": "Chiles poblanos",
+        "medida": "4 (en rajas)"
+      },
+      {
+        "nombre": "Queso Oaxaca o panela",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Hojas de maíz",
+        "medida": "50 (remojadas)"
+      },
+      {
+        "nombre": "Polvo para hornear",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Bate la manteca hasta que esponje. Incorpora la masa y el polvo de hornear, amasa con caldo. 2. Rellena las hojas de maíz untando masa, rajas y queso. 3. Dóblalos y cuece al vapor en una vaporera por 1.5 a 2 horas, o hasta que la masa se separe fácilmente de la hoja.",
+    "tags": [
+      "Tamales"
+    ]
+  },
+  {
+    "Id": 27,
+    "Nombre_de_la_receta": "Frijoles de Olla",
+    "imagen": "frijoles-de-olla.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Frijol (negro o bayo)",
+        "medida": "500 g (limpio)"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "2.5 litros"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 de pieza"
+      },
+      {
+        "nombre": "Ajo",
+        "medida": "1 diente"
+      },
+      {
+        "nombre": "Epazote",
+        "medida": "1 rama (opcional)"
+      },
+      {
+        "nombre": "Sal",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Remoja los frijoles por 1 hora. Escúrrelos. 2. Coloca los frijoles, agua, cebolla y ajo en la olla (olla de presión o normal). 3. Cocina a fuego alto hasta que hierva, baja a fuego medio y tapa. 4. Sazona con sal y epazote a mitad de la cocción (aprox. 1 hora en olla normal, 30 min en olla de presión). Cocina hasta que estén suaves.",
+    "tags": [
+      "Arroz/Guarnición"
+    ]
+  },
+  {
+    "Id": 28,
+    "Nombre_de_la_receta": "Calabacitas con Elote",
+    "imagen": "calabacitas-con-elote.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Calabacita",
+        "medida": "4 (en cubos)"
+      },
+      {
+        "nombre": "Granos de elote",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (picado)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "50 g (en cubos, opcional)"
+      },
+      {
+        "nombre": "Aceite",
+        "medida": "1 cucharada"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla. Agrega el jitomate y cocina hasta que suelte su jugo. 2. Incorpora las calabacitas y los granos de elote. Tapa y cocina a fuego medio hasta que las calabacitas estén tiernas. 3. Sazona. Si lo usas, agrega el queso al final. Sirve como guarnición.",
+    "tags": []
+  },
+  {
+    "Id": 29,
+    "Nombre_de_la_receta": "Agua Fresca de Jamaica",
+    "imagen": "agua-fresca-de-jamaica.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Flor de jamaica",
+        "medida": "1 taza (seca)"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "2 litros"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza (o al gusto)"
+      },
+      {
+        "nombre": "Hielo",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En una olla, hierve 1 litro de agua con la flor de jamaica. Deja reposar por 15 minutos. 2. Cuela el concentrado de jamaica en una jarra. 3. Agrega el litro de agua restante, el azúcar y mezcla hasta disolver. 4. Refrigera y sirve con mucho hielo.",
+    "tags": [
+      "Bebida"
+    ]
+  },
+  {
+    "Id": 30,
+    "Nombre_de_la_receta": "Tacos Dorados de Requesón",
+    "imagen": "tacos-dorados-de-requeson.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Requesón",
+        "medida": "300 g"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      },
+      {
+        "nombre": "Lechuga",
+        "medida": "1 taza (picada)"
+      },
+      {
+        "nombre": "Salsa de jitomate",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Crema y queso",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Rellena las tortillas con requesón y enróllalas para formar el taco (puedes usar palillos). 2. Fríe los tacos en aceite caliente hasta que estén crujientes y dorados. 3. Sirve con lechuga, salsa, queso y crema.",
+    "tags": [
+      "Antojitos",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 31,
+    "Nombre_de_la_receta": "Chicharrón en Salsa Verde",
+    "imagen": "chicharron-en-salsa-verde.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Chicharrón de cerdo (prensa o botanero)",
+        "medida": "300 g"
+      },
+      {
+        "nombre": "Tomate verde",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "3 (o al gusto)"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "1 taza"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Hierve los tomates verdes y chiles. Licúa con un trozo de cebolla, ajo y cilantro. 2. Sofríe la salsa y agrega el caldo. Sazona. 3. Agrega el chicharrón. Si es chicharrón de bolsa, cocina hasta que se ablande (5-10 minutos). 4. Sirve caliente con frijoles y tortillas.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 32,
+    "Nombre_de_la_receta": "Enchiladas Suizas",
+    "imagen": "enchiladas-suizas.jpg",
+    "categoría": "Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pechuga de pollo",
+        "medida": "300 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Tomate verde",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile poblano",
+        "medida": "1 (asado y en rajas)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Queso manchego o Chihuahua",
+        "medida": "200 g (rallado)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara una salsa verde cremosa licuando tomate, chiles, un poco de crema y sazona. 2. Pasa las tortillas por un poco de aceite. Rellena con pollo y enrolla. 3. Coloca en un refractario, baña con la salsa. Cubre con queso rallado. 4. Hornea o gratina hasta que el queso esté derretido y dorado.",
+    "tags": [
+      "Enchiladas/Chilaquiles"
+    ]
+  },
+  {
+    "Id": 33,
+    "Nombre_de_la_receta": "Crema de Elote",
+    "imagen": "crema-de-elote.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Granos de elote",
+        "medida": "2 tazas (frescos o congelados)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Leche o media crema",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Mantequilla",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Crutones o queso fresco",
+        "medida": "Al gusto (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla en mantequilla. Agrega los granos de elote y cocina 3 minutos. 2. Licúa la mezcla de elote con el caldo y la leche o crema. 3. Regresa a la olla, sazona y cocina a fuego bajo hasta que espese ligeramente. 4. Sirve caliente y decora con queso o crutones.",
+    "tags": []
+  },
+  {
+    "Id": 34,
+    "Nombre_de_la_receta": "Aguachile de Camarón",
+    "imagen": "aguachile-de-camaron.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Camarón",
+        "medida": "500 g (crudo, pelado y mariposa)"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "1 taza (recién exprimido)"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "5 (o al gusto, licuados)"
+      },
+      {
+        "nombre": "Cebolla morada",
+        "medida": "1/2 (en juliana fina)"
+      },
+      {
+        "nombre": "Pepino",
+        "medida": "1 (en rodajas finas)"
+      },
+      {
+        "nombre": "Tostadas o galletas saladas",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Coloca los camarones en un recipiente, cúbrelos con el jugo de limón y sazona con sal y pimienta. Refrigera 15 minutos. 2. Licúa los chiles con un poco de limón de la marinada y un poco de cilantro (opcional). 3. Agrega la cebolla, el pepino y la salsa de chile al camarón. Mezcla. 4. Sirve inmediatamente con tostadas o aguacate.",
+    "tags": [
+      "Mariscos"
+    ]
+  },
+  {
+    "Id": 35,
+    "Nombre_de_la_receta": "Tlacoyos de Frijol",
+    "imagen": "tlacoyos-de-frijol.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (nixtamal)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "200 g (espesos)"
+      },
+      {
+        "nombre": "Nopalitos en ensalada",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Salsa y queso Cotija",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Amasa la masa con un poco de agua hasta que esté suave. 2. Toma una porción de masa y dale forma ovalada. Rellena con frijoles refritos y sella. 3. Aplana ligeramente para darle la forma de tlacoyo (más grueso que una tortilla). 4. Cuece en un comal caliente hasta que esté bien cocido y ligeramente tostado. 5. Sirve cubierto con la ensalada de nopalitos, salsa y queso.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 36,
+    "Nombre_de_la_receta": "Ensalada de Jícama y Pepino con Chile",
+    "imagen": "ensalda-jicama-pepinos-con-chile.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Jícama",
+        "medida": "1 (pelada y en bastones)"
+      },
+      {
+        "nombre": "Pepino",
+        "medida": "1 (pelado y en bastones)"
+      },
+      {
+        "nombre": "Zanahoria",
+        "medida": "1 (pelada y en bastones, opcional)"
+      },
+      {
+        "nombre": "Limón",
+        "medida": "2 (jugo)"
+      },
+      {
+        "nombre": "Chile en polvo (Tajín)",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Sal",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla los bastones de jícama, pepino y zanahoria en un tazón. 2. Vierte el jugo de limón recién exprimido. 3. Sazona con sal y bastante chile en polvo (Tajín es el clásico). 4. Mezcla bien y sirve inmediatamente como botana fresca.",
+    "tags": [
+      "Arroz/Guarnición",
+      "Ensalada"
+    ]
+  },
+  {
+    "Id": 37,
+    "Nombre_de_la_receta": "Pastel Azteca (Budín de Tortilla)",
+    "imagen": "pastel-azteca.jpg",
+    "categoría": "Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "15 unidades (ligeramente fritas)"
+      },
+      {
+        "nombre": "Pollo",
+        "medida": "300 g (cocido y deshebrado)"
+      },
+      {
+        "nombre": "Rajas de chile poblano",
+        "medida": "1 taza (guisadas con crema)"
+      },
+      {
+        "nombre": "Salsa de jitomate o verde",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Queso rallado",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "1/2 taza"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En un refractario, coloca una capa de salsa, luego una de tortillas. 2. Cubre con pollo deshebrado, rajas con crema y queso. Repite las capas. 3. Termina con salsa, queso y un poco de crema. 4. Hornea a 180°C (350°F) por 20 minutos o hasta que el queso gratine y esté burbujeante.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 38,
+    "Nombre_de_la_receta": "Salsa Mexicana (Pico de Gallo)",
+    "imagen": "pico-de-gallo.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (picado en cubos)"
+      },
+      {
+        "nombre": "Cebolla blanca",
+        "medida": "1/2 (picada finamente)"
+      },
+      {
+        "nombre": "Chile serrano o jalapeño",
+        "medida": "1 (picado finamente, o al gusto)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/2 taza (picado)"
+      },
+      {
+        "nombre": "Limón",
+        "medida": "1 (jugo)"
+      },
+      {
+        "nombre": "Sal",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla en un tazón el jitomate, cebolla, chile y cilantro. 2. Vierte el jugo de limón y sazona con sal. 3. Mezcla suavemente para integrar. 4. Sirve como acompañamiento de tacos, huevos o carnes.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 39,
+    "Nombre_de_la_receta": "Camarones a la Diabla",
+    "imagen": "camarones-a-la-diabla.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Camarón",
+        "medida": "500 g (limpios)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (para la salsa)"
+      },
+      {
+        "nombre": "Chile de árbol",
+        "medida": "10-15 (o al gusto, para la salsa)"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto (para la salsa)"
+      },
+      {
+        "nombre": "Mantequilla o aceite",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Arroz blanco",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece o asa los jitomates, chiles, cebolla y ajo. Licúa y cuela. 2. Sofríe la salsa y sazona con sal. 3. En otro sartén, saltea los camarones en mantequilla. 4. Agrega la salsa y cocina 5 minutos más hasta que los camarones estén bien cubiertos y la salsa espese. Sirve con arroz.",
+    "tags": []
+  },
+  {
+    "Id": 40,
+    "Nombre_de_la_receta": "Picadillo de Res",
+    "imagen": "picadillo-de-res.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne molida de res",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (picado en cubos)"
+      },
+      {
+        "nombre": "Papa",
+        "medida": "2 (en cubos y precocida)"
+      },
+      {
+        "nombre": "Zanahoria",
+        "medida": "1 (en cubos y precocida)"
+      },
+      {
+        "nombre": "Cebolla y ajo",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla y el ajo. Agrega la carne molida y cocínala hasta que cambie de color. 2. Agrega el jitomate picado y cocina hasta que suelte su jugo. 3. Incorpora la papa y la zanahoria precocidas. 4. Sazona con sal, pimienta y un poco de caldo (opcional). Cocina hasta que espese. Sirve como relleno o plato fuerte.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 41,
+    "Nombre_de_la_receta": "Quesadillas de Huitlacoche",
+    "imagen": "quesadillas-de-huitlacoche.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Huitlacoche (cuitlacoche)",
+        "medida": "300 g"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "8 unidades"
+      },
+      {
+        "nombre": "Queso Oaxaca (quesillo)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "1 (picado, opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla y el chile. Agrega el huitlacoche, sazona y cocina hasta que el líquido se evapore. 2. Calienta una tortilla, rellena con queso y el guisado de huitlacoche. 3. Dobla y cuece en el comal hasta que el queso se derrita.",
+    "tags": [
+      "Quesadillas"
+    ]
+  },
+  {
+    "Id": 42,
+    "Nombre_de_la_receta": "Tacos Gobernador",
+    "imagen": "tacos-gobernador.jpg",
+    "categoría": "Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Camarón",
+        "medida": "400 g (limpios y picados)"
+      },
+      {
+        "nombre": "Pimiento morrón rojo",
+        "medida": "1/2 (en juliana)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (en juliana)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Queso Oaxaca o Chihuahua",
+        "medida": "150 g"
+      },
+      {
+        "nombre": "Mantequilla",
+        "medida": "2 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Saltea la cebolla y el pimiento morrón en mantequilla. 2. Agrega los camarones picados y sazona. Cocina hasta que estén listos. 3. Calienta las tortillas, rellena con el guisado y queso. 4. Dóblalos y cocínalos en el comal hasta que el queso se derrita y el taco esté dorado.",
+    "tags": [
+      "Antojitos",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 43,
+    "Nombre_de_la_receta": "Gorditas de Chicharrón Prensado",
+    "imagen": "gorditas-de-chicharron-prensado.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (nixtamal)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chicharrón prensado",
+        "medida": "250 g (guisado en salsa)"
+      },
+      {
+        "nombre": "Salsa roja o verde",
+        "medida": "Para acompañar"
+      },
+      {
+        "nombre": "Queso rallado",
+        "medida": "Al gusto (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Amasa la masa con un poco de sal. 2. Forma bolas de masa y aplánalas para formar una 'gordita' gruesa. 3. Cuece en el comal y luego abre la gordita por un costado. 4. Rellena con el chicharrón prensado guisado. 5. Sirve con salsa y queso.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 44,
+    "Nombre_de_la_receta": "Torta Ahogada",
+    "imagen": "torta-ahogada.jpg",
+    "categoría": "Gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Birote salado",
+        "medida": "2 unidades"
+      },
+      {
+        "nombre": "Carnitas o cerdo",
+        "medida": "200 g (en rebanadas)"
+      },
+      {
+        "nombre": "Jitomate (para la salsa)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Chile de árbol",
+        "medida": "10-15 (para la salsa picante)"
+      },
+      {
+        "nombre": "Cebolla morada",
+        "medida": "1/2 (curtida en vinagre y limón)"
+      },
+      {
+        "nombre": "Comino y orégano",
+        "medida": "Para sazonar la salsa"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Abre el birote y rellena con la carne de cerdo. 2. Prepara la salsa 'no picante' (jitomate, comino, orégano). Prepara la salsa 'picante' (jitomate, chile de árbol). 3. Sumerge completamente la torta en la salsa 'no picante'. 4. Sirve y agrega salsa picante y cebolla morada curtida al gusto.",
+    "tags": [
+      "Torta"
+    ]
+  },
+  {
+    "Id": 45,
+    "Nombre_de_la_receta": "Sopa de Fideo Seco",
+    "imagen": "sopa-de-fideo-seco.jpg",
+    "categoría": "Vegetariana, Gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Fideo (pasta delgada)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (licuado)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Aguacate, queso y crema",
+        "medida": "Al gusto (para decorar)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "3 cucharadas"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Fríe el fideo en aceite hasta que esté dorado. 2. Licúa el jitomate con ajo y cebolla. Cuela. 3. Vierte el jitomate sobre el fideo y sofríe. 4. Agrega el caldo de pollo, sazona. Cocina tapado a fuego bajo hasta que el líquido se evapore. 5. Sirve con queso fresco, crema y rebanadas de aguacate.",
+    "tags": [
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 46,
+    "Nombre_de_la_receta": "Enchiladas Potosinas",
+    "imagen": "enchiladas-potosinas.jpg",
+    "categoría": "Vegetariana, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (con chile ancho molido)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Queso añejo o Cotija",
+        "medida": "200 g (rallado)"
+      },
+      {
+        "nombre": "Manteca de cerdo",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Salsa de tomate",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla la masa con el chile ancho en polvo (o licuado) y manteca. 2. Forma tortillas pequeñas. Rellena con queso añejo y dobla. 3. Fríe en manteca o aceite. 4. Sirve con lechuga, cebolla y salsa de tomate.",
+    "tags": [
+      "Enchiladas/Chilaquiles"
+    ]
+  },
+  {
+    "Id": 47,
+    "Nombre_de_la_receta": "Corundas (Tamal Michoacano)",
+    "imagen": "corundas.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (nixtamal)",
+        "medida": "1 kg"
+      },
+      {
+        "nombre": "Mantecas de cerdo",
+        "medida": "250 g"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Hojas de maíz (secas)",
+        "medida": "25 (remojadas y escurridas)"
+      },
+      {
+        "nombre": "Crema y queso Cotija",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Bate la manteca y la masa con el caldo hasta que esté suave. Sazona con sal. 2. Unta la masa sobre una hoja de maíz para tamal y enrolla de forma triangular o piramidal. 3. Cuece al vapor por 1.5 horas. 4. Sirve bañadas en crema, salsa verde (opcional) y queso Cotija.",
+    "tags": [
+      "Tamales"
+    ]
+  },
+  {
+    "Id": 48,
+    "Nombre_de_la_receta": "Fajitas de Pollo",
+    "imagen": "fajitas-de-pollo.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pechuga de pollo",
+        "medida": "500 g (en tiras)"
+      },
+      {
+        "nombre": "Pimiento morrón (rojo, verde, amarillo)",
+        "medida": "1 de c/u (en juliana)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1 (en juliana)"
+      },
+      {
+        "nombre": "Tortillas de harina o maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Salsa de soya y jugo Maggi",
+        "medida": "Al gusto (para marinar, opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Marina el pollo con limón, especias y sazonadores. 2. Saltea el pollo en aceite caliente hasta que esté cocido. 3. En otro sartén, saltea los pimientos y la cebolla hasta que estén al dente. 4. Mezcla el pollo y las verduras. Sazona. 5. Sirve el guisado caliente con tortillas.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 49,
+    "Nombre_de_la_receta": "Sopa Tarasca",
+    "imagen": "sopa-tarasca.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Frijol bayo o negro",
+        "medida": "2 tazas (cocido y licuado)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (cocido)"
+      },
+      {
+        "nombre": "Chile pasilla",
+        "medida": "1 (asado y sin semillas)"
+      },
+      {
+        "nombre": "Tortillas",
+        "medida": "4 (fritas para la guarnición)"
+      },
+      {
+        "nombre": "Crema, queso Cotija y aguacate",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa los frijoles con el jitomate cocido y el chile pasilla. Cuela. 2. Sofríe la sopa en aceite. Agrega caldo de frijol hasta tener la consistencia deseada. Hierve. 3. Sirve caliente con la guarnición de tiras de tortilla frita, queso, crema y aguacate.",
+    "tags": [
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 50,
+    "Nombre_de_la_receta": "Pambazos",
+    "imagen": "pambazos.jpg",
+    "categoría": "Gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pan para pambazo",
+        "medida": "4 unidades"
+      },
+      {
+        "nombre": "Papa y chorizo",
+        "medida": "200 g (para el relleno)"
+      },
+      {
+        "nombre": "Chile guajillo",
+        "medida": "6 (para bañar el pan)"
+      },
+      {
+        "nombre": "Lechuga y queso rallado",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Crema",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara un guisado de papa cocida con chorizo. 2. Licúa los chiles guajillos remojados con ajo y cebolla para la salsa. 3. Rellena el pan con el guisado de papa y chorizo. 4. Sumerge el pan en la salsa de guajillo y fríelo en un sartén con aceite. 5. Sirve abierto y rellena con lechuga, queso y crema.",
+    "tags": [
+      "Torta"
+    ]
+  },
+  {
+    "Id": 51,
+    "Nombre_de_la_receta": "Agua de Horchata",
+    "imagen": "agua-horchata.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Arroz blanco",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Canela",
+        "medida": "1 rama grande"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "2 litros"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza (o al gusto)"
+      },
+      {
+        "nombre": "Leche evaporada o condensada",
+        "medida": "1/2 taza (opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Remoja el arroz y la canela en 2 tazas de agua por 4 horas. 2. Licúa el arroz, canela y agua de remojo. Cuela en una jarra. 3. Agrega el resto del agua, el azúcar y la leche (opcional). Mezcla y refrigera. 4. Sirve fría con hielo.",
+    "tags": [
+      "Bebida"
+    ]
+  },
+  {
+    "Id": 52,
+    "Nombre_de_la_receta": "Churros con Azúcar y Canela",
+    "imagen": "churros.jpg",
+    "categoría": "Vegana, Gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Harina de trigo",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Mantequilla o aceite",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Azúcar y Canela molida",
+        "medida": "Para espolvorear"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En una olla, calienta agua, mantequilla y sal. Cuando hierva, agrega la harina de golpe. Mezcla. 2. Coloca la masa en una manga pastelera con duya de estrella. 3. Forma tiras de masa y fríe en aceite caliente hasta que estén dorados. 4. Escurre y revuelca en la mezcla de azúcar y canela.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 53,
+    "Nombre_de_la_receta": "Salpicón de Res",
+    "imagen": "salpicon-de-res.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Falda de res",
+        "medida": "500 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (picado en cubos)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/2 (picada en juliana)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza (picado)"
+      },
+      {
+        "nombre": "Vinagre y aceite de oliva",
+        "medida": "Para el aderezo"
+      },
+      {
+        "nombre": "Lechuga",
+        "medida": "Para servir"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla la carne de res deshebrada con el jitomate, cebolla y cilantro. 2. Prepara un aderezo con aceite de oliva, vinagre, jugo de limón, sal y pimienta. 3. Vierte el aderezo sobre la mezcla y deja reposar 15 minutos. 4. Sirve sobre una cama de lechuga o en tostadas.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 54,
+    "Nombre_de_la_receta": "Tlacoyos de Frijol y Queso",
+    "imagen": "tlacoyos-de-frijol-y-queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "100 g (desmoronado)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para el comal"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Forma bolas de masa y aplánalas ligeramente. Rellena con frijoles. 2. Cierra y aplana para formar un óvalo grueso. 3. Cuece en el comal hasta que estén bien cocidos. 4. Sirve calientes, cubiertos con queso desmoronado, cebolla y salsa al gusto.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 55,
+    "Nombre_de_la_receta": "Flan Napolitano Casero",
+    "imagen": "flan-napolitano.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Leche condensada",
+        "medida": "1 lata (370 g)"
+      },
+      {
+        "nombre": "Leche evaporada",
+        "medida": "1 lata (360 g)"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "5 unidades"
+      },
+      {
+        "nombre": "Extracto de vainilla",
+        "medida": "1 cucharadita"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza (para el caramelo)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara el caramelo en el molde. 2. Licúa la leche condensada, la evaporada, los huevos y la vainilla. 3. Vierte la mezcla en el molde con caramelo. 4. Hornea a baño maría a 180°C (350°F) por 1 hora o hasta que esté firme. 5. Enfría y desmolda.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 56,
+    "Nombre_de_la_receta": "Caldillo de Pescado (Caldo de Camarón)",
+    "imagen": "caldo-de-camaron.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Camarón seco",
+        "medida": "100 g"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (para el caldo base)"
+      },
+      {
+        "nombre": "Chile guajillo",
+        "medida": "5 (seco, para el color)"
+      },
+      {
+        "nombre": "Zanahoria y papa",
+        "medida": "1 de c/u (en cubos)"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "1.5 litros"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Hierve los chiles y jitomates. Licúa y cuela con el agua de cocción. 2. Sofríe esta mezcla. Agrega el caldo de camarón seco (o agua) y los camarones secos. 3. Agrega las verduras (papa y zanahoria) y cocina hasta que estén tiernas. 4. Sirve caliente con limón y chile piquín.",
+    "tags": [
+      "Entrada",
+      "Mariscos",
+      "Plato fuerte",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 57,
+    "Nombre_de_la_receta": "Tinga de Res",
+    "imagen": "tinga-de-res.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Falda de res",
+        "medida": "500 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Cebolla blanca",
+        "medida": "1 (en juliana)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "3 (licuado)"
+      },
+      {
+        "nombre": "Chile chipotle en adobo",
+        "medida": "2 (o al gusto)"
+      },
+      {
+        "nombre": "Tostadas, aguacate y queso",
+        "medida": "Para servir"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla en juliana hasta que esté suave. 2. Agrega el jitomate licuado y el chipotle. Sazona y deja hervir. 3. Incorpora la carne de res deshebrada. Cocina a fuego bajo hasta que el líquido se reduzca. 4. Sirve la tinga sobre tostadas con aguacate, queso y crema (opcional).",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 58,
+    "Nombre_de_la_receta": "Pico de Gallo con Mango",
+    "imagen": "pico-de-gallo-con-mago.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Mango (maduro, firme)",
+        "medida": "1 (en cubos)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (en cubos)"
+      },
+      {
+        "nombre": "Cebolla morada",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Cilantro",
+        "medida": "1/4 taza (picado)"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "1 unidad"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "1/2 (o al gusto)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla todos los ingredientes picados (mango, jitomate, cebolla, cilantro, chile). 2. Vierte el jugo de limón y sazona con una pizca de sal. 3. Mezcla suavemente para no deshacer el mango. 4. Sirve como salsa agridulce para acompañar pescados o botana con totopos.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 59,
+    "Nombre_de_la_receta": "Tostadas de pata de res",
+    "imagen": "tostadas-de-pata-de-res.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pata de res (cocida y en vinagre)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/2 (en juliana)"
+      },
+      {
+        "nombre": "Chiles en vinagre",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Orégano",
+        "medida": "1 cucharadita"
+      },
+      {
+        "nombre": "Tostadas de maíz",
+        "medida": "15 unidades"
+      },
+      {
+        "nombre": "Lechuga, crema y queso Cotija",
+        "medida": "Para servir"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla la pata de res en vinagre con la cebolla en juliana, los chiles picados y orégano. 2. Deja marinar por 30 minutos. 3. Sirve el guisado sobre tostadas de maíz. 4. Decora con lechuga, crema y queso Cotija desmoronado.",
+    "tags": [
+      "Plato fuerte",
+      "Tostadas"
+    ]
+  },
+  {
+    "Id": 60,
+    "Nombre_de_la_receta": "Gelatina de Mosaico",
+    "imagen": "gelatina_mosaico.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Gelatina de sabores (fresa, limón, naranja)",
+        "medida": "3 paquetes (de agua)"
+      },
+      {
+        "nombre": "Leche evaporada",
+        "medida": "1 lata (360 g)"
+      },
+      {
+        "nombre": "Leche condensada",
+        "medida": "1 lata (370 g)"
+      },
+      {
+        "nombre": "Agua o leche",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Grenetina (sin sabor)",
+        "medida": "4 sobres"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara las gelatinas de colores y refrigera hasta que cuajen. Corta en cubos. 2. Licúa la leche evaporada, condensada y la grenetina disuelta en agua/leche caliente. 3. Coloca los cubos de gelatina de colores en un molde y vierte la mezcla de leche. 4. Refrigera por 4 horas o hasta que cuaje por completo. Desmolda y sirve.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 61,
+    "Nombre_de_la_receta": "Sopa de Lima Yucateca",
+    "imagen": "sopa-de-lima-yucateca.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pechuga de pollo",
+        "medida": "300 g (cocida y deshebrada)"
+      },
+      {
+        "nombre": "Limón agrio (Lima)",
+        "medida": "3 (jugo y cáscara)"
+      },
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "4 (frita en tiras)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (en cubos)"
+      },
+      {
+        "nombre": "Pimiento morrón",
+        "medida": "1/2 (en juliana)"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "1.5 litros"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe el jitomate, pimiento morrón y cebolla. 2. Agrega el caldo de pollo y un poco de cáscara de lima. Sazona y hierve. 3. Retira la cáscara y agrega el jugo de lima. 4. Sirve el caldo caliente con el pollo deshebrado y las tiras de tortilla frita.",
+    "tags": [
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 62,
+    "Nombre_de_la_receta": "Alambre de Res",
+    "imagen": "alambre_de_res.jpg",
+    "categoría": "Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne de res (en cubos)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Pimiento morrón (varios colores)",
+        "medida": "1 de c/u (en cubos)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1 (en cubos)"
+      },
+      {
+        "nombre": "Tocino",
+        "medida": "100 g (en cubos)"
+      },
+      {
+        "nombre": "Queso Oaxaca o Asadero",
+        "medida": "200 g (rallado)"
+      },
+      {
+        "nombre": "Tortillas",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Fríe el tocino hasta que esté dorado. Retira el tocino y reserva la grasa. 2. Sofríe la cebolla, el pimiento y la carne en la grasa. Sazona. 3. Regresa el tocino. Coloca el queso rallado encima y tapa para que se derrita. 4. Sirve caliente directamente con tortillas de maíz.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 63,
+    "Nombre_de_la_receta": "Discada",
+    "imagen": "discada.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne de res (trozos)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Carne de cerdo (trozos)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Salchicha y chorizo",
+        "medida": "100 g de c/u"
+      },
+      {
+        "nombre": "Pimiento y cebolla",
+        "medida": "Al gusto (en juliana)"
+      },
+      {
+        "nombre": "Cerveza o jugo de naranja",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Tortillas",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En un disco (o sartén grande) a fuego, cocina el tocino y el chorizo. Retira. 2. Sella las carnes (res y cerdo) y sazona. Agrega las salchichas. 3. Incorpora el tocino y chorizo. Agrega la cebolla y pimiento. 4. Vierte la cerveza o jugo, cocina hasta que se evapore el líquido. Sirve en tacos.",
+    "tags": [
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 64,
+    "Nombre_de_la_receta": "Cochitos al Horno (Estilo Chiapas)",
+    "imagen": "cochitos-al-horno.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Costilla de cerdo",
+        "medida": "1 kg"
+      },
+      {
+        "nombre": "Chiles anchos y guajillos",
+        "medida": "10 (para el adobo)"
+      },
+      {
+        "nombre": "Vinagre blanco",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Orégano, comino, clavo",
+        "medida": "Especias al gusto"
+      },
+      {
+        "nombre": "Jugo de naranja",
+        "medida": "1/4 taza"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara el adobo licuando los chiles remojados, vinagre y especias. 2. Marina el cerdo en el adobo por al menos 4 horas. 3. Hornea el cerdo a 180°C (350°F) hasta que esté suave y jugoso, bañando ocasionalmente con el adobo y el jugo de naranja. 4. Sirve con arroz y plátano macho frito.",
+    "tags": []
+  },
+  {
+    "Id": 65,
+    "Nombre_de_la_receta": "Huachinango Frito",
+    "imagen": "huachinango-frito.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Huachinango (entero, limpio)",
+        "medida": "1 unidad (aprox. 500g)"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Ajo en polvo",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Harina de trigo o de arroz",
+        "medida": "Para enharinar"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír (abundante)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Haz cortes transversales en el pescado. Sazona por dentro y por fuera con sal, pimienta, ajo y jugo de limón. 2. Enharina ligeramente el pescado. 3. Fríe en aceite muy caliente hasta que esté dorado y crujiente por ambos lados. 4. Sirve inmediatamente con arroz blanco o ensalada.",
+    "tags": [
+      "Mariscos"
+    ]
+  },
+  {
+    "Id": 66,
+    "Nombre_de_la_receta": "Guisado de Champiñones y Epazote",
+    "imagen": "guisado-de-champiñones-y-epasote.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Champiñones",
+        "medida": "500 g (en láminas)"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Epazote",
+        "medida": "1 rama grande"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "1 (opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla hasta que esté transparente. 2. Agrega los champiñones y el chile. Cocina a fuego alto hasta que los champiñones suelten y reabsorban su jugo. 3. Agrega la rama de epazote y sazona. Cocina unos minutos más. 4. Sirve como relleno para quesadillas o en tacos.",
+    "tags": []
+  },
+  {
+    "Id": 67,
+    "Nombre_de_la_receta": "Atole de Vainilla",
+    "imagen": "atole-de-vainilla.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Leche (o agua)",
+        "medida": "1 litro"
+      },
+      {
+        "nombre": "Masa de maíz (nixtamal) o Harina de maíz (Maseca)",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza (o piloncillo al gusto)"
+      },
+      {
+        "nombre": "Vainilla",
+        "medida": "1 cucharada (extracto)"
+      },
+      {
+        "nombre": "Canela",
+        "medida": "1 rama"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Disuelve la masa o la harina de maíz en una taza de líquido. 2. Calienta el líquido restante con la canela y el azúcar. 3. Una vez caliente, agrega la mezcla de masa sin dejar de remover. 4. Cocina a fuego bajo, removiendo constantemente, hasta que espese. Agrega la vainilla al final y sirve caliente.",
+    "tags": [
+      "Bebida",
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 68,
+    "Nombre_de_la_receta": "Sopes de Pollo",
+    "imagen": "sopes-de-pollo.jpg",
+    "categoría": "Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (nixtamal)",
+        "medida": "500 g"
+      },
+      {
+        "nombre": "Pollo deshebrado",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Lechuga, cebolla y rábanos",
+        "medida": "Para guarnición"
+      },
+      {
+        "nombre": "Salsa y queso Cotija",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Forma bolitas de masa y aplánalas. Cuece en el comal. 2. Aún calientes, pellizca los bordes de la tortilla para formar la orilla del sope. 3. Fríe ligeramente. Unta frijoles refritos, agrega pollo deshebrado. 4. Decora con lechuga, cebolla, rábano, salsa, crema y queso.",
+    "tags": [
+      "Antojitos",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 69,
+    "Nombre_de_la_receta": "Arroz con Leche",
+    "imagen": "arroz-con-leche.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Arroz",
+        "medida": "1 taza (lavado)"
+      },
+      {
+        "nombre": "Leche entera",
+        "medida": "1 litro"
+      },
+      {
+        "nombre": "Leche condensada",
+        "medida": "1/2 lata"
+      },
+      {
+        "nombre": "Canela",
+        "medida": "2 ramas"
+      },
+      {
+        "nombre": "Pasas",
+        "medida": "1/4 taza (opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece el arroz en agua con una rama de canela hasta que esté tierno. Escurre el agua. 2. Agrega la leche entera y la condensada, más la otra rama de canela. 3. Cocina a fuego bajo, moviendo ocasionalmente, hasta que el arroz absorba el líquido y esté cremoso. 4. Agrega las pasas al final. Sirve caliente o frío, espolvoreado con canela molida.",
+    "tags": [
+      "Arroz/Guarnición"
+    ]
+  },
+  {
+    "Id": 70,
+    "Nombre_de_la_receta": "Esquites (Elote en Vaso)",
+    "imagen": "esquites.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Granos de elote",
+        "medida": "4 tazas (cocidos)"
+      },
+      {
+        "nombre": "Caldo de elote",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Epazote",
+        "medida": "1 rama"
+      },
+      {
+        "nombre": "Chile serrano",
+        "medida": "1 (entero, opcional)"
+      },
+      {
+        "nombre": "Guarnición",
+        "medida": "Mayonesa, queso Cotija, chile piquín, limón"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Guisa los granos de elote en mantequilla o aceite. 2. Agrega el caldo de elote, la rama de epazote y el chile entero. Sazona con sal. 3. Cocina a fuego medio por 15 minutos o hasta que el caldo se reduzca ligeramente. 4. Sirve en vasos con mayonesa, queso Cotija desmoronado, jugo de limón y chile piquín.",
+    "tags": []
+  },
+  {
+    "Id": 71,
+    "Nombre_de_la_receta": "Tortas de Carnitas",
+    "imagen": "Torta-de-carnitas.jpg",
+    "categoría": "Gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pan bolillo o telera",
+        "medida": "2 unidades"
+      },
+      {
+        "nombre": "Carnitas de cerdo",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Aguacate",
+        "medida": "1/2 unidad (en rebanadas)"
+      },
+      {
+        "nombre": "Salsa de chile de árbol",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Cebolla y cilantro",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Abre el pan. Unta frijoles refritos en ambas tapas. 2. Rellena con una porción generosa de carnitas calientes. 3. Agrega rebanadas de aguacate. 4. Sirve con cebolla, cilantro y baña con la salsa de chile de árbol (o sírvela aparte).",
+    "tags": []
+  },
+  {
+    "Id": 72,
+    "Nombre_de_la_receta": "Chamoyada de Mango",
+    "imagen": "chamoyada-de-mango.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Mango",
+        "medida": "1 taza (en cubos, congelado)"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Hielo",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Chamoy líquido",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Chile en polvo (Tajín)",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa el mango congelado, hielo y el jugo de limón hasta obtener una consistencia de frappé. 2. En un vaso, escarcha el borde con chamoy y chile en polvo. 3. Vierte el frappé de mango. 4. Decora con más chamoy y chile en polvo, y un poco de mango fresco (opcional).",
+    "tags": []
+  },
+  {
+    "Id": 73,
+    "Nombre_de_la_receta": "Tacos de Barbacoa",
+    "imagen": "tacos-de-barbacoa.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Carne de res o carnero",
+        "medida": "1 kg (cocida en pencas de maguey o al vapor)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "20 unidades"
+      },
+      {
+        "nombre": "Cebolla y cilantro",
+        "medida": "Al gusto (picados)"
+      },
+      {
+        "nombre": "Salsa borracha o roja",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Jugo de limón",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Deshebra la carne de barbacoa. Calienta un poco de jugo de la cocción (consomé). 2. Calienta las tortillas, sumergiéndolas brevemente en la grasa o caldo de la barbacoa. 3. Sirve la carne en las tortillas. 4. Acompaña con cebolla y cilantro picados, salsa y limón. El consomé se sirve aparte.",
+    "tags": [
+      "Antojitos",
+      "Plato fuerte",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 74,
+    "Nombre_de_la_receta": "Ensalada Navideña de Manzana y Nuez",
+    "imagen": "ensalada-de-manzana.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Nueces",
+    "ingredientes": [
+      {
+        "nombre": "Manzana",
+        "medida": "3 (en cubos)"
+      },
+      {
+        "nombre": "Nuez",
+        "medida": "1/2 taza (picada)"
+      },
+      {
+        "nombre": "Pasas",
+        "medida": "1/4 taza"
+      },
+      {
+        "nombre": "Crema ácida",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Leche condensada",
+        "medida": "1/4 lata"
+      },
+      {
+        "nombre": "Piña en almíbar",
+        "medida": "1/2 taza (en cubos)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En un tazón grande, mezcla la crema ácida con la leche condensada (el aderezo). 2. Agrega la manzana, pasas, nuez y la piña. 3. Mezcla bien para cubrir todos los ingredientes. 4. Refrigera por al menos 30 minutos antes de servir.",
+    "tags": [
+      "Arroz/Guarnición",
+      "Ensalada"
+    ]
+  },
+  {
+    "Id": 75,
+    "Nombre_de_la_receta": "Sopa Azteca con Huevo Pochado",
+    "imagen": "sopa-azteca-con-huevo-ponchado.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Jitomate, chile pasilla y caldo",
+        "medida": "Para la base de Sopa Azteca (ver receta 11)"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "2 unidades (pochados)"
+      },
+      {
+        "nombre": "Tortilla",
+        "medida": "Para la guarnición"
+      },
+      {
+        "nombre": "Aguacate, queso y crema",
+        "medida": "Para la guarnición"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara la base de la Sopa Azteca. 2. En una olla aparte con agua y vinagre hirviendo, pocha los huevos. 3. Sirve el caldo caliente con las tiras de tortilla. 4. Coloca el huevo pochado en el centro del plato y decora con aguacate, queso y crema.",
+    "tags": [
+      "Desayuno",
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 76,
+    "Nombre_de_la_receta": "Churros Rellenos de Cajeta",
+    "imagen": "churros-con-relleno-cajeta.jpg",
+    "categoría": "Vegetariana, Gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de churros",
+        "medida": "Preparada (ver receta 52)"
+      },
+      {
+        "nombre": "Cajeta (dulce de leche de cabra)",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Azúcar y Canela molida",
+        "medida": "Para espolvorear"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Fríe los churros hasta que estén dorados. 2. Escurre y revuélcalos en la mezcla de azúcar y canela. 3. Rellena los churros introduciendo cajeta con una jeringa de repostería o abriéndolos con cuidado. 4. Sirve calientes.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 77,
+    "Nombre_de_la_receta": "Enfrijoladas de Chorizo",
+    "imagen": "enfrijoladas-de-chorizo.jpg",
+    "categoría": "Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Frijoles",
+        "medida": "Para la salsa (ver receta 21)"
+      },
+      {
+        "nombre": "Chorizo",
+        "medida": "150 g (frito)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Queso y crema",
+        "medida": "Para decorar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara la salsa de frijol caliente. 2. Fríe el chorizo y deshazlo. 3. Pasa cada tortilla por la salsa de frijol, rellena con un poco de chorizo frito y dobla. 4. Coloca en el plato, baña con más salsa y decora con queso, crema y rodajas de cebolla.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 78,
+    "Nombre_de_la_receta": "Machitos (Tripa de Leche) en Salsa",
+    "imagen": "machitos-en-salsa.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Machitos de carnero o cabrito",
+        "medida": "4 unidades (precocidos)"
+      },
+      {
+        "nombre": "Chile pasilla y ancho",
+        "medida": "3 de c/u (para la salsa roja)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (para la salsa)"
+      },
+      {
+        "nombre": "Comino y clavo",
+        "medida": "Para sazonar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara la salsa licuando los chiles remojados, jitomate, ajo, cebolla y especias. Cuela y sofríe. 2. Agrega los machitos precocidos a la salsa. 3. Cocina a fuego bajo por 20 minutos para que absorban el sabor. 4. Sirve caliente con arroz blanco o tortillas.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 79,
+    "Nombre_de_la_receta": "Pan de Elote (Pastel de Maíz)",
+    "imagen": "pan-de-elote.jpg",
+    "categoría": "Vegetariana, Gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Elote desgranado (maíz)",
+        "medida": "3 tazas"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "4 unidades"
+      },
+      {
+        "nombre": "Mantequilla",
+        "medida": "100 g (derretida)"
+      },
+      {
+        "nombre": "Leche condensada",
+        "medida": "1/2 lata"
+      },
+      {
+        "nombre": "Polvo de hornear",
+        "medida": "1 cucharada"
+      },
+      {
+        "nombre": "Harina de trigo",
+        "medida": "1/4 taza (opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa el elote desgranado con los huevos, la mantequilla derretida, la leche condensada y el polvo de hornear. Agrega la harina si lo usas. 2. Vierte la mezcla en un molde engrasado y enharinado. 3. Hornea a 180°C (350°F) por 45-50 minutos o hasta que al insertar un palillo, salga limpio. 4. Enfría antes de desmoldar.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 80,
+    "Nombre_de_la_receta": "Tacos de Nopalitos con Queso",
+    "imagen": "tacos_de_nopalitos_con_queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Nopales",
+        "medida": "500 g (cocidos y en tiras)"
+      },
+      {
+        "nombre": "Jitomate y cebolla",
+        "medida": "Al gusto (para guisar)"
+      },
+      {
+        "nombre": "Queso Panela",
+        "medida": "150 g (en cubos)"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades"
+      },
+      {
+        "nombre": "Salsa y cilantro",
+        "medida": "Para acompañar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla y el jitomate. Agrega los nopales cocidos. Sazona. 2. Incorpora los cubos de queso panela y cocina hasta que el queso esté suave y caliente. 3. Calienta las tortillas. 4. Rellena con el guisado de nopalitos y sirve con salsa y cilantro.",
+    "tags": [
+      "Antojitos",
+      "Arroz/Guarnición",
+      "Tacos"
+    ]
+  },
+  {
+    "Id": 81,
+    "Nombre_de_la_receta": "Buñuelos con Miel de Piloncillo",
+    "imagen": "buñuelos-con-mil-de-piloncillo.jpg",
+    "categoría": "Vegana, Gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Harina de trigo",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "1 unidad"
+      },
+      {
+        "nombre": "Agua tibia",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Piloncillo",
+        "medida": "100 g (para la miel)"
+      },
+      {
+        "nombre": "Canela y anís estrella",
+        "medida": "Para la miel"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. **Masa:** Mezcla harina, huevo, agua y una pizca de sal hasta obtener una masa elástica. Deja reposar. 2. Estira la masa muy delgada y fríe en abundante aceite caliente. 3. **Miel:** Hierve el piloncillo con agua, canela y anís hasta que espese. 4. Sirve los buñuelos crujientes bañados con la miel caliente.",
+    "tags": []
+  },
+  {
+    "Id": 82,
+    "Nombre_de_la_receta": "Chicharrón de Queso",
+    "imagen": "chicharrón_de_queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Queso Oaxaca (quesillo) o Chihuahua",
+        "medida": "300 g"
+      },
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "Para acompañar"
+      },
+      {
+        "nombre": "Salsa verde o roja",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En un sartén antiadherente caliente, coloca el queso en forma de espiral o círculo. 2. Cocina a fuego medio-alto sin mover hasta que el queso se derrita por completo y el borde se dore y esté crujiente. 3. Enrolla rápidamente el queso con una espátula. Sirve caliente con tortillas y salsa.",
+    "tags": []
+  },
+  {
+    "Id": 83,
+    "Nombre_de_la_receta": "Huevos Divorciados",
+    "imagen": "huevos-divorciados.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Huevo",
+        "medida": "2 unidades (fritos)"
+      },
+      {
+        "nombre": "Tortilla de maíz",
+        "medida": "2 unidades"
+      },
+      {
+        "nombre": "Salsa Roja",
+        "medida": "1/2 taza (jitomate y chile de árbol)"
+      },
+      {
+        "nombre": "Salsa Verde",
+        "medida": "1/2 taza (tomate verde y chile serrano)"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "Al gusto (para acompañar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Fríe la tortilla. Colócala en el centro de un plato. 2. Fríe los huevos (estrellados). Coloca uno sobre la tortilla. 3. Baña la mitad del huevo con salsa roja y la otra mitad con salsa verde. 4. Sirve con frijoles refritos al lado y un poco de queso fresco desmoronado (opcional).",
+    "tags": [
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 84,
+    "Nombre_de_la_receta": "Panuchos Yucatecos",
+    "imagen": "panuchos-yucatecos.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Tortilla de maíz (gruesas)",
+        "medida": "10 unidades"
+      },
+      {
+        "nombre": "Frijoles negros refritos",
+        "medida": "1 taza (para rellenar)"
+      },
+      {
+        "nombre": "Cochinita pibil",
+        "medida": "200 g (o pavo en escabeche)"
+      },
+      {
+        "nombre": "Cebolla morada curtida",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Abre una tortilla gruesa por la mitad y rellena con una capa delgada de frijoles refritos. 2. Fríe el panucho hasta que esté ligeramente dorado. 3. Rellena el centro abierto con cochinita pibil. 4. Sirve con lechuga, rodajas de jitomate y cebolla morada curtida.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 85,
+    "Nombre_de_la_receta": "Pollo en Salsa de Chile Pasilla",
+    "imagen": "pollo-en-salsa-de-chile-pasilla.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pollo (pierna y muslo)",
+        "medida": "4 piezas (cocidas)"
+      },
+      {
+        "nombre": "Chile pasilla",
+        "medida": "8 (secos, desvenados y remojados)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "2 (cocidos)"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Comino y orégano",
+        "medida": "Para sazonar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa los chiles remojados, jitomate cocido, ajo, cebolla, comino y orégano con un poco de caldo. Cuela. 2. Sofríe la salsa, agrega el caldo restante y sazona. 3. Incorpora las piezas de pollo cocidas y cocina a fuego bajo por 15 minutos. 4. Sirve con arroz blanco.",
+    "tags": [
+      "Plato fuerte",
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 86,
+    "Nombre_de_la_receta": "Agua de Tamarindo",
+    "imagen": "agua-de-tamarindo.jpg",
+    "categoría": "Vegana, Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pulpa de tamarindo",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Agua",
+        "medida": "2 litros"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza (o al gusto)"
+      },
+      {
+        "nombre": "Hielo",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Remoja la pulpa de tamarindo en 1 taza de agua caliente para ablandar. 2. Exprime la pulpa para separar las semillas y las fibras, obteniendo el concentrado. 3. En una jarra, mezcla el concentrado de tamarindo con el resto del agua y el azúcar. 4. Mezcla hasta disolver el azúcar. Sirve con mucho hielo.",
+    "tags": [
+      "Bebida"
+    ]
+  },
+  {
+    "Id": 87,
+    "Nombre_de_la_receta": "Gorditas de Maíz y Azúcar",
+    "imagen": "gorditas-de-maiz-y-azucar.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Harina de maíz (Maseca)",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Azúcar",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Canela en polvo",
+        "medida": "1 cucharadita"
+      },
+      {
+        "nombre": "Leche o agua tibia",
+        "medida": "1 taza (aproximadamente)"
+      },
+      {
+        "nombre": "Polvo de hornear",
+        "medida": "1 cucharadita"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla la harina, azúcar, canela y polvo de hornear. 2. Agrega la leche o agua tibia poco a poco hasta obtener una masa suave y manejable. 3. Forma bolitas y aplánalas para formar gorditas de unos 5 mm de grosor. 4. Cuece en un comal caliente hasta que estén bien cocidas y ligeramente doradas.",
+    "tags": [
+      "Antojitos"
+    ]
+  },
+  {
+    "Id": 88,
+    "Nombre_de_la_receta": "Pollo con Mole de Olla",
+    "imagen": "pollo-con-mole-de-olla.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Pollo (pierna y muslo)",
+        "medida": "4 piezas"
+      },
+      {
+        "nombre": "Chile guajillo y ancho",
+        "medida": "3 de c/u (para la salsa)"
+      },
+      {
+        "nombre": "Verduras",
+        "medida": "2 papas, 2 zanahorias, 1 elote, 1 chayote (en trozos)"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "1.5 litros"
+      },
+      {
+        "nombre": "Epazote",
+        "medida": "1 rama"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Cuece el pollo con sal, ajo y cebolla. Reserva el caldo. 2. Licúa los chiles remojados, jitomate, ajo y cebolla. Cuela y sofríe. 3. Agrega el caldo de pollo, las verduras y la rama de epazote. Sazona. 4. Cuando las verduras estén suaves, agrega el pollo. Sirve caliente.",
+    "tags": [
+      "Mole",
+      "Plato fuerte"
+    ]
+  },
+  {
+    "Id": 89,
+    "Nombre_de_la_receta": "Licuado de Plátano",
+    "imagen": "licuado-de-platano.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Plátano",
+        "medida": "2 unidades (maduros)"
+      },
+      {
+        "nombre": "Leche (entera o vegetal)",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Avena",
+        "medida": "2 cucharadas (opcional)"
+      },
+      {
+        "nombre": "Miel o azúcar",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Hielo",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Coloca todos los ingredientes en la licuadora. 2. Licúa hasta obtener una consistencia cremosa y homogénea. 3. Sirve inmediatamente.",
+    "tags": [
+      "Bebida",
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 90,
+    "Nombre_de_la_receta": "Huazontles Capeados en Salsa",
+    "imagen": "huazontles-capeados-con-salsa.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Huazontle",
+        "medida": "2 manojos (cocidos y limpios)"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "150 g (para rellenar)"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "4 unidades (para capear)"
+      },
+      {
+        "nombre": "Salsa de jitomate",
+        "medida": "2 tazas (simple)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Forma tortitas de huazontle rellenas de queso fresco. 2. Bate las claras de huevo a punto de nieve y luego incorpora las yemas. 3. Pasa las tortitas por el capeado y fríe en aceite caliente. 4. Sirve las tortitas bañadas con la salsa de jitomate caliente.",
+    "tags": [
+      "Salsa/Dip"
+    ]
+  },
+  {
+    "Id": 91,
+    "Nombre_de_la_receta": "Empanadas de Camarón",
+    "imagen": "empanadas-de-camaron.jpg",
+    "categoría": "Gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Harina de trigo",
+        "medida": "2 tazas (para la masa)"
+      },
+      {
+        "nombre": "Camarón seco",
+        "medida": "150 g (remojado y picado)"
+      },
+      {
+        "nombre": "Jitomate, cebolla, ajo",
+        "medida": "Para el guisado"
+      },
+      {
+        "nombre": "Chile ancho o guajillo",
+        "medida": "3 (para la masa opcional)"
+      },
+      {
+        "nombre": "Aceite vegetal",
+        "medida": "Para freír"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Prepara la masa de empanada (puede ser de harina de trigo o de maíz). 2. Guisa el camarón picado con jitomate, cebolla y ajo. 3. Rellena la masa con el guisado y sella los bordes. 4. Fríe las empanadas en aceite caliente hasta que estén doradas. Sirve con limón.",
+    "tags": [
+      "Mariscos"
+    ]
+  },
+  {
+    "Id": 92,
+    "Nombre_de_la_receta": "Fideos Secos al Chipotle",
+    "imagen": "fideos-secos-al-chipotle.jpg",
+    "categoría": "Vegetariana, Gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Fideo (pasta delgada)",
+        "medida": "200 g"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "4 (licuado)"
+      },
+      {
+        "nombre": "Chile chipotle en adobo",
+        "medida": "1-2 (o al gusto)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "1 taza"
+      },
+      {
+        "nombre": "Crema, queso Cotija y aguacate",
+        "medida": "Para servir"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Fríe el fideo en aceite hasta que esté dorado. 2. Licúa el jitomate con el chipotle y un poco de caldo. Cuela. 3. Vierte la salsa sobre el fideo y sofríe. Agrega el resto del caldo. 4. Tapa y cocina a fuego bajo hasta que el líquido se absorba. Sirve con guarnición.",
+    "tags": []
+  },
+  {
+    "Id": 93,
+    "Nombre_de_la_receta": "Crema de Chile Poblano",
+    "imagen": "crema-de-chile-poblano.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos",
+    "ingredientes": [
+      {
+        "nombre": "Chile poblano",
+        "medida": "4 (asados, pelados y sin semillas)"
+      },
+      {
+        "nombre": "Leche evaporada o media crema",
+        "medida": "1 lata (360 g)"
+      },
+      {
+        "nombre": "Caldo de pollo o vegetal",
+        "medida": "2 tazas"
+      },
+      {
+        "nombre": "Cebolla",
+        "medida": "1/4 (picada)"
+      },
+      {
+        "nombre": "Mantequilla",
+        "medida": "2 cucharadas"
+      },
+      {
+        "nombre": "Granos de elote",
+        "medida": "1/2 taza (para decorar)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sofríe la cebolla en mantequilla. Agrega las rajas de chile poblano. 2. Licúa la mezcla de poblano con la leche evaporada y el caldo. 3. Regresa a la olla, sazona y cocina a fuego bajo hasta que espese. 4. Sirve caliente, decorada con granos de elote y tiras de poblano.",
+    "tags": []
+  },
+  {
+    "Id": 94,
+    "Nombre_de_la_receta": "Carne Asada a la Tampiqueña",
+    "imagen": "carne-asada-a-la-tempiqueña.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Bistec de res (filete)",
+        "medida": "4 unidades (para asar)"
+      },
+      {
+        "nombre": "Enchiladas Rojas",
+        "medida": "2 unidades (rellenas de queso)"
+      },
+      {
+        "nombre": "Frijoles refritos",
+        "medida": "Al gusto"
+      },
+      {
+        "nombre": "Rajas de poblano",
+        "medida": "Al gusto (guisadas)"
+      },
+      {
+        "nombre": "Guacamole",
+        "medida": "Al gusto"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Sazona la carne y ásala al término deseado. 2. Prepara las enchiladas rojas rellenas de queso (solo 2 por plato). 3. En un plato, sirve el bistec, acompáñalo con las enchiladas, una porción de frijoles refritos, rajas de poblano y guacamole.",
+    "tags": []
+  },
+  {
+    "Id": 95,
+    "Nombre_de_la_receta": "Sopa Seca de Tortilla",
+    "imagen": "sopa_seca_de_tortilla.jpg",
+    "categoría": "Vegetariana, Sin gluten, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Tortillas de maíz",
+        "medida": "12 unidades (fritas o tostadas)"
+      },
+      {
+        "nombre": "Salsa de jitomate",
+        "medida": "2 tazas (sencilla y espesa)"
+      },
+      {
+        "nombre": "Queso rallado",
+        "medida": "100 g (para el relleno)"
+      },
+      {
+        "nombre": "Caldo de pollo",
+        "medida": "1/2 taza (opcional)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. En un refractario, coloca una capa de salsa de jitomate. 2. Coloca una capa de tortillas fritas, cúbrela con salsa y espolvorea queso. Repite las capas. 3. Hornea a 180°C (350°F) por 15-20 minutos, o hasta que el queso se derrita y las orillas estén doradas. 4. Sirve caliente, se come con tenedor.",
+    "tags": [
+      "Entrada",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 96,
+    "Nombre_de_la_receta": "Bebida de Champurrado (Atole de Chocolate)",
+    "imagen": "champurrado-mexicano.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Masa de maíz (nixtamal)",
+        "medida": "1/2 taza"
+      },
+      {
+        "nombre": "Agua o leche",
+        "medida": "1 litro"
+      },
+      {
+        "nombre": "Chocolate de mesa",
+        "medida": "1 tablilla"
+      },
+      {
+        "nombre": "Piloncillo",
+        "medida": "50 g (o al gusto)"
+      },
+      {
+        "nombre": "Canela",
+        "medida": "1 rama"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Disuelve la masa de maíz en un poco de agua o leche. 2. Calienta el líquido restante con el chocolate, piloncillo y canela hasta que el chocolate se derrita. 3. Vierte la masa disuelta sin dejar de remover. 4. Cocina a fuego bajo, removiendo constantemente, hasta que el atole espese. Sirve caliente.",
+    "tags": [
+      "Bebida",
+      "Desayuno"
+    ]
+  },
+  {
+    "Id": 97,
+    "Nombre_de_la_receta": "Caldo de Hueso de Res (Caldo Tlalpeño)",
+    "imagen": "caldo-tlalpeño.jpg",
+    "categoría": "Sin gluten, Sin lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Caldo de res o pollo",
+        "medida": "1.5 litros"
+      },
+      {
+        "nombre": "Garbanzo",
+        "medida": "1/2 taza (cocido)"
+      },
+      {
+        "nombre": "Zanahoria y papa",
+        "medida": "1 de c/u (en cubos)"
+      },
+      {
+        "nombre": "Chipotle en adobo",
+        "medida": "1 (entero o picado, opcional)"
+      },
+      {
+        "nombre": "Pollo deshebrado",
+        "medida": "150 g"
+      },
+      {
+        "nombre": "Guarnición",
+        "medida": "Aguacate, queso panela, tiras de tortilla"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Calienta el caldo de res/pollo. Agrega las verduras y el garbanzo cocido. Sazona. 2. Una vez que las verduras estén suaves, agrega el chile chipotle. 3. Sirve el caldo caliente con el pollo deshebrado. Acompaña con aguacate, queso panela en cubos y tiras de tortilla frita.",
+    "tags": [
+      "Entrada",
+      "Plato fuerte",
+      "Sopa/Caldo"
+    ]
+  },
+  {
+    "Id": 98,
+    "Nombre_de_la_receta": "Chiles Jalapeños Rellenos de Queso Crema",
+    "imagen": "jalapenos-rellenos-de-queso.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Chiles jalapeños",
+        "medida": "10 unidades (cortados y desvenados)"
+      },
+      {
+        "nombre": "Queso crema",
+        "medida": "1 paquete (190 g)"
+      },
+      {
+        "nombre": "Tocino",
+        "medida": "10 tiras (para envolver, opcional)"
+      },
+      {
+        "nombre": "Mantequilla",
+        "medida": "Para cocinar"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Rellena los jalapeños desvenados con el queso crema. 2. Si usas tocino, envuelve cada chile con una tira de tocino y asegúralo con un palillo. 3. Cocina en un sartén o en el horno hasta que el tocino esté crujiente y el queso suave. 4. Sirve caliente.",
+    "tags": []
+  },
+  {
+    "Id": 99,
+    "Nombre_de_la_receta": "Acapulco de Noche (Postre)",
+    "imagen": "acapulco-de-noche.jpg",
+    "categoría": "Vegetariana, Gluten, Lácteos, Nueces",
+    "ingredientes": [
+      {
+        "nombre": "Leche condensada",
+        "medida": "1 lata"
+      },
+      {
+        "nombre": "Queso crema",
+        "medida": "1 paquete (190 g)"
+      },
+      {
+        "nombre": "Vainilla",
+        "medida": "1 cucharada"
+      },
+      {
+        "nombre": "Galletas Marías",
+        "medida": "1 paquete (para la base)"
+      },
+      {
+        "nombre": "Café soluble (fuerte)",
+        "medida": "1 taza (para mojar las galletas)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Licúa la leche condensada, el queso crema y la vainilla hasta obtener una crema suave. 2. En un refractario, coloca una capa de galletas Marías mojadas en el café. 3. Vierte una capa de la crema de queso. Repite las capas. 4. Refrigera por al menos 4 horas. Decora con chocolate rallado o nuez picada (opcional) antes de servir.",
+    "tags": [
+      "Postre"
+    ]
+  },
+  {
+    "Id": 100,
+    "Nombre_de_la_receta": "Tortitas de Papa en Salsa Roja",
+    "imagen": "tortitas-de-papa-en-salsa-roja.jpg",
+    "categoría": "Vegetariana, Sin gluten, Lácteos, Sin nueces",
+    "ingredientes": [
+      {
+        "nombre": "Papa",
+        "medida": "500 g (cocida y machacada)"
+      },
+      {
+        "nombre": "Huevo",
+        "medida": "1 unidad"
+      },
+      {
+        "nombre": "Queso fresco",
+        "medida": "1/2 taza (rallado)"
+      },
+      {
+        "nombre": "Jitomate",
+        "medida": "500 g (para la salsa)"
+      },
+      {
+        "nombre": "Chile ancho o guajillo",
+        "medida": "3 (para la salsa)"
+      }
+    ],
+    "instrucciones_de_preparación": "1. Mezcla la papa machacada con el huevo, el queso rallado y sal. Forma las tortitas. 2. Fríe las tortitas en aceite caliente hasta que estén doradas. Reserva. 3. Prepara una salsa roja con jitomate, chiles, ajo y cebolla. Cuela y sofríe. 4. Agrega las tortitas a la salsa y cocina a fuego lento por 10 minutos. Sirve con arroz.",
+    "tags": [
+      "Salsa/Dip",
+      "Torta"
+    ]
+  }
+]

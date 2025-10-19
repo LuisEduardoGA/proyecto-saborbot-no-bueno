@@ -1,0 +1,123 @@
+
+[
+    {
+        "Id": "Recommend1",
+        "image": "/Recommend/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend2",
+        "image": "/Recommend/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommen3",
+        "image": "/Recommend/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend4",
+        "image": "/Recommend/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend5",
+        "image": "/Recommend/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend6",
+        "image": "/Recommend/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend7",
+        "image": "/Recommend/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend8",
+        "image": "/Recommend/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend9",
+        "image": "/Recommend/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend10",
+        "image": "/Recommend/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend11",
+        "image": "/Recommend/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommend12",
+        "image": "/Recommend/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    }
+]

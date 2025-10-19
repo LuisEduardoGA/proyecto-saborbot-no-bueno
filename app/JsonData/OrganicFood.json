@@ -1,0 +1,63 @@
+
+[
+    {
+        "Id": "Organic1",
+        "image": "/Organic-Food/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Organic2",
+        "image": "/Organic-Food/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Recommen3",
+        "image": "/Organic-Food/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Organic4",
+        "image": "/Organic-Food/product-img1.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Organic5",
+        "image": "/Organic-Food/product-img2.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    },
+    {
+        "Id": "Organic6",
+        "image": "/Organic-Food/product-img3.png",
+        "title": "Tropicana 100% Juice",
+        "price": "$9.99",
+        "lessprice": "$19.99",
+        "review": "(17k)",
+        "sold": "25/23",
+        "sale": "New"
+    }
+]
